@@ -1,64 +1,83 @@
-html,
-body {
+* {
   margin: 0;
   padding: 0;
+}
+
+main {
+  margin: 0 20px 0 20px;
+}
+
+.mainBackGround {
+  background-color: yellow;
+  width: cover;
+  height: 10vh;
+  grid-template-columns: 40px 1fr 40px;
+  display: grid;
+}
+
+.headerText {
+  grid-column: 2;
+  display: flex;
+  width: 90%;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 20%;
+}
+
+.headerText1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+.headerText2 {
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.hamberger {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex-wrap: nowrap;
+  position: relative;
+  top: 30%;
+}
+input {
+  background-color: white;
+  height: 70%;
+  text-align: center;
+  position: relative;
+  width: 70vw;
+  top: 40%;
+  font-size: 11px;
+}
+
+.search1 {
+  height: 70%;
+  left: 0;
+  position: absolute;
+  top: 40%;
+}
+
+.inputWrapper {
+  position: relative;
+  height: 100%;
+}
+
+.bird {
+  position: relative;
+  align-content: center;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
   width: 100%;
   height: 100%;
 }
 
-body {
-  margin: 0 20px 20px 0;
-}
-html.open {
-  overflow: hidden;
-}
-
-#mainBackGround {
-  width: 100%;
-  height: 15vh;
-  position: sticky;
-  background-color: rgba(255, 229, 81, 0.9);
-  background-attachment: fixed;
-  background-size: cover;
-  transform: translateX(0%);
-  text-align: center;
-  align-items: center;
-}
-
-.Logo {
-  position: relative;
-  font-size: 4vh;
-  top: 0.5vh;
-}
-
-.subLogo {
-  position: relative;
-  top: -2.8vh;
-  justify-content: center;
-  align-items: center;
-  font-size: 2vh;
-}
-
-.hamberger {
-  /* background-image: url("./images/icons/hamberger"); */
-  position: relative;
-  background-repeat: no-repeat;
-  width: 4vh;
-  height: 40px;
-  bottom: 700px;
-  background-size: 40px;
-  /* align-items: flex; */
-  left: 300px;
-}
-
-.search {
-  position: fixed;
-  top: 120px;
-  z-index: 999;
-  text-align: center;
-  /* float: left; */
-}
-.searchBar {
-  border-color: rgba(255, 229, 81, 0.9);
-  border-radius: 8px;
+.birdImg {
+  position: absolute;
+  height: auto;
+  top: 10px;
+  width: auto;
 }
