@@ -15,7 +15,7 @@ select,
 table,
 textarea {
   font-family: Dotum, "돋움", Helvetica, sans-serif;
-  font-size: 12px;
+  font-size: 12px; /*이용약관 라벨 글 사이즈*/
   -webkit-text-size-adjust: none;
 }
 
@@ -23,11 +23,18 @@ html {
   font-size: 16px;
 }
 
-/* body,
+hr {
+  position: absolute;
+  top: 190px;
+  width: 100%;
+  transform: translateX(0%);
+}
+
+body,
 html {
   width: 100%;
   height: 100%;
-} */
+}
 
 #backbutton {
   position: absolute;
@@ -70,6 +77,7 @@ button img {
 
 .circleParent {
   position: relative;
+  top: -20%;
 }
 
 #circle {
@@ -81,7 +89,7 @@ button img {
   display: flex;
   justify-content: center;
   top: -10%;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 26px;
   transform: translateX(-50%);
   background-color: rgba(255, 229, 81, 1);
@@ -102,7 +110,7 @@ button img {
   align-items: center;
   display: flex;
   justify-content: center;
-  top: 50%;
+  top: 30%;
   font-size: 1em;
   transform: translateX(-50%);
   left: 30%;
@@ -155,6 +163,11 @@ li.terms_bx {
   background: #fff;
   box-sizing: border-box;
   left: -10px;
+  color: rgb(85, 83, 83);
+}
+
+h4.article_title {
+  color: gray;
 }
 
 div {
@@ -175,14 +188,15 @@ span.input_chk {
 
 /* 글씨 크기 (필수 붙은 라인) */
 label {
-  font-size: 1.15em;
+  font-size: 1.3em;
   position: relative;
   top: -4px;
 }
 
 ul.term_bx_list {
+  /*이용약관 틀*/
   position: relative;
-  top: -5vh;
+  top: 10%;
   left: -4px;
 }
 .term_p {
@@ -192,35 +206,36 @@ ul.term_bx_list {
 }
 
 .btns {
-  position: relative;
+  /*버튼묶음*/
+  position: absolute;
   display: flex;
   justify-content: center;
-  top: 68vh;
+  /* top: 50vh; */
 }
 
 .btnYes {
   /* 확인 연결 필요*/
-  width: 100%;
+  width: 100px;
   height: 60px;
-  position: relative;
-  /* top: 75vh; */
-  transform: translateX(-50%);
+  position: absolute;
+  top: 75vh;
+  transform: translateX(150%);
   z-index: 999;
   background-color: red;
-  left: 18vh;
-  max-width: 70px;
+  /* left: 18vh; */
+  /* max-width: 80px; */
 }
 .btnNo {
   /* 취소 연결 필요*/
-  width: 80%;
+  width: 100px;
   height: 60px;
-  position: relative;
-  /* top: 75vh; */
-  transform: translateX(-100%);
+  position: absolute;
+  top: 75vh;
+  transform: translateX(150%);
   z-index: 999;
   background-color: black;
   left: -5vh;
-  max-width: 70px;
+  /* max-width: 80px; */
 }
 
 @media only screen and (max-width: 600px) {
