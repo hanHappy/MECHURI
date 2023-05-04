@@ -10,11 +10,9 @@ main {
 .mainBackGround {
   background-color: yellow;
   height: 14vh;
-  grid-template-columns: 40px 1fr 40px;
   display: grid;
-  
+  grid-template-columns: 10px 1fr 100px;
 }
-
 .headerText {
   grid-column: 2;
   display: flex;
@@ -66,15 +64,16 @@ input {
 
 .bird {
   position: relative;
-  top:15px;
+  top:20px;
   
   z-index: -1;
 }
-
-.birdImg{
-  
+  /* 객체지향 사실과 오해 */
+  /* 혼자 공부하는 운영체제 */
+  /*지킬 독*/
+  .birdImg{
   width: 80vmin;
-  height: 60vmin;
+  height: 45vmin;
   background-repeat: no-repeat;
   background-size: 100%;
   background-image: url("../images/icons/캡처.PNG");
@@ -82,5 +81,65 @@ input {
   position: absolute;
   left: 50%;
   transform: translateX( -50%);
+  max-width: 30vmax;
+  max-height: 25vmax;
 }
 
+/* .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: yellowgreen;
+  padding: 8px 12px;
+}
+
+.navbar_logo {
+  font-size: 18px;
+}
+
+.navbar_logo i{
+  color:red;
+}
+
+.navbar_menu {
+  display:flex;
+  list-style: none;
+} */
+
+
+/* @media screen and (max-width:786px) {
+
+  .navbar{
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px 0 0 0;
+    
+  }
+
+  .navbar_menu {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    display: none;
+  }
+
+.navbar_menu li {
+  width: 100%;
+  text-align: center;
+}
+.navbar_icons {
+  width: 100%;
+  justify-content: center;
+  display: none;
+}
+.navbar_togglebtn{
+  display: block;
+}
+
+.mainBackGround {
+
+  
+}
+
+
+}
