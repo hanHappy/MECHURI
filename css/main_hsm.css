@@ -2,6 +2,8 @@ body {
     margin: 0;
 }
 
+/* ==================== 헤더 ==================== */
+
 .header {
     height: 144px;
     width: 100%;
@@ -26,8 +28,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     /* "메추리" 텍스트 가리기 */
     overflow: hidden;
     text-indent: -999px;
@@ -53,33 +55,24 @@ body {
     justify-self: start;
 }
 
-/* --------------------------- main ---------------------------- */
+.search-bar{
+    position: absolute;
+    margin-top: 144px;
+    width: 85vmin;
+    height: 9vmin;
+    border-radius: 8px;
+    border-color: #F7BB0A;
+}
+
+/* ====================== main ========================== */
 
 main {
-    margin: 20px 20px;
+    margin: 40px 20px;
 }
 
-.best-rstr-btn {
-    background-image: url(/images/components/최고-가성비-식당.png);
-    background-color: transparent;
-    background-repeat: no-repeat;
-    border: none;
-
-    width: 335px;
-    height: 184px;
-
-    /* 텍스트 가리기 */
-    overflow: hidden;
-    text-indent: -999px;
-}
-
-.best-rstr-btn:hover {
-    cursor: pointer;
-    filter: brightness(0.8);
-}
+/* ----------------------- 카테고리 ------------------------*/
 
 .category-box {
-    height: 100px;
     width: 100%;
     margin-top: 20px;
 
@@ -90,87 +83,144 @@ main {
     justify-content: space-around;
 }
 
-.category_korean-btn {
+.category-box div {
+    box-shadow: 0px 0px 1px 2px #0001;
+    border-radius: 8px;
+    height: 20vmin;
+    width: 15vmin;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.category-box div button{
+    background-size: contain;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+
+    /* 텍스트 가리기 */
+    overflow: hidden;
+    text-indent: -999px;
+
+    flex-grow: 1;
+    height: 17vmin;
+}
+
+.category-korean-btn {
     background-image: url(/images/components/카테고리_한식.png);
-    background-size: contain;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-position: center;
-    border: none;
-
-    /* 텍스트 가리기 */
-    overflow: hidden;
-    text-indent: -999px;
-
-    flex-grow: 1;
-    height: 100px;
-    width: 40px;
 }
 
-.category_chinese-btn {
+.category-chinese-btn {
     background-image: url(/images/components/카테고리_중식.png);
-    background-size: contain;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-position: center;
-    border: none;
-    
-    /* 텍스트 가리기 */
-    overflow: hidden;
-    text-indent: -999px;
-
-    flex-grow: 1;
-    height: 100px;
-    width: 40px;
 }
 
-.category_japanese-btn {
+.category-japanese-btn {
     background-image: url(/images/components/카테고리_일식.png);
-    background-size: contain;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-position: center;
-    border: none;
-    
-    /* 텍스트 가리기 */
-    overflow: hidden;
-    text-indent: -999px;
-
-    flex-grow: 1;
-    height: 100px;
-    width: 40px;
 }
 
-.category_western-btn {
+.category-western-btn {
     background-image: url(/images/components/카테고리_양식.png);
-    background-size: contain;
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-position: center;
-    border: none;
-    
-    /* 텍스트 가리기 */
-    overflow: hidden;
-    text-indent: -999px;
-
-    flex-grow: 1;
-    height: 100px;
-    width: 40px;
 }
 
-.category_bunsik-btn {
+.category-bunsik-btn {
     background-image: url(/images/components/카테고리_분식.png);
+}
+
+/* ------------------ 가성비 랭킹 TOP 5 ------------------ */
+.ranking{
+    margin-top: 20px;
+}
+
+.ranking-title{
+    font-size: 18px;
+    margin: 0;
+}
+
+.ranking-box{
+    margin-top: 10px;
+
+    /* 횡스크롤 */
+    overflow-x: auto;
+
+    /* layout */
+    display: flex; 
+    align-items: center;
+    justify-items: center;
+    flex-shrink: 0;
+}
+
+.ranking-box div{
+    margin-right: 10px;
+    /* layout */
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-shrink: 0;
+}
+
+.ranking-box div button{
     background-size: contain;
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: center;
     border: none;
-    
+
     /* 텍스트 가리기 */
     overflow: hidden;
     text-indent: -999px;
 
     flex-grow: 1;
-    height: 100px;
-    width: 40px;
+    flex-shrink: 0;
+
+    width: 80vmin;
+    height: 45vmin;
+}
+
+.ranking_1{
+    background-image: url(/images/components/1위.png);
+}
+.ranking_2{
+    background-image: url(/images/components/2위.png);
+}
+.ranking_3{
+    background-image: url(/images/components/3위.png);
+}
+.ranking_4{
+    background-image: url(/images/components/4위.png);
+}
+.ranking_5{
+    background-image: url(/images/components/5위.png);
+}
+.ranking_all{
+    background-image: url(/images/components/랭킹-전체-보기.png);
+}
+
+/* ------------------- 가성비 평가하기 ------------------- */
+
+.rating{
+    margin-top: 20px;
+}
+
+.rating-title{
+    font-size: 18px;
+    margin: 0;
+}
+
+.rating-btn{
+    background-image: url(/images/components/가성비를-평가해보세요.png);
+    background-size: contain;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+
+    margin-top: 5px;
+    width: 100%;
+    height: 50vmin;
+}
+
+.rating-btn:hover{
+    filter: brightness(0.8);
 }
