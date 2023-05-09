@@ -15,6 +15,256 @@ select,
 table,
 textarea {
   font-family: Dotum, "돋움", Helvetica, sans-serif;
+  font-size: 16px; /*이용약관 라벨 글 사이즈*/
+  -webkit-text-size-adjust: none;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+#backbutton {
+  position: absolute;
+  left: 5%;
+  width: 5%;
+  height: 50%;
+  top: 2.5vh;
+  border: none;
+  background-color: transparent;
+  z-index: 999;
+}
+
+button img {
+  max-width: 100%;
+  max-height: 100%;
+  background-color: transparent;
+  position: absolute;
+  top: 0.1vh;
+  left: 1%;
+  z-index: -1;
+}
+
+#mainBackGround {
+  height: 10vh;
+  position: sticky;
+  background-color: rgba(255, 229, 81, 1);
+  background-size: cover;
+  text-align: center;
+}
+
+.Inline {
+  width: 60%;
+  height: 2px;
+  top: 30px;
+  position: absolute;
+  background-color: black;
+  left: 20%;
+  z-index: -1;
+}
+
+.circleParent {
+  position: relative;
+  top: 100%;
+}
+
+#circle {
+  width: 62px;
+  height: 62px;
+  position: absolute;
+  align-items: center;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+  transform: translateX(-50%);
+  background-color: rgba(255, 229, 81, 1);
+}
+.circle1 {
+  left: 18%;
+}
+.circle2 {
+  left: 50%;
+}
+.circle3 {
+  left: 82%;
+}
+.Sign {
+  width: 150px;
+  height: 52px;
+  position: absolute;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  top: 180%;
+  font-size: 25px;
+  transform: translateX(-50%);
+  left: 30%;
+  margin: auto;
+}
+
+.p1 {
+  left: 18%;
+}
+.p2 {
+  left: 50%;
+}
+.p3 {
+  left: 82%;
+}
+hr {
+  position: relative;
+  border: 5% solid black;
+  width: 100%;
+  top: 220px;
+}
+.Logos {
+  position: absolute;
+  width: 100%;
+  height: 81px;
+  align-content: center;
+}
+
+.terms_necessary {
+  font-size: 20px;
+  color: rgb(241, 43, 17);
+}
+
+.terms_bx {
+  font-size: 1em;
+}
+li.terms_bx {
+  display: flex;
+}
+
+.terms_box {
+  position: relative;
+  overflow: auto;
+  margin-top: 8px;
+  padding: 12px;
+  height: 120px;
+  border: 1px solid gray;
+  background: #fff;
+  box-sizing: border-box;
+  left: 5px;
+  color: rgb(85, 83, 83);
+}
+
+h4.article_title {
+  color: gray;
+}
+
+div {
+  display: block;
+}
+
+#termService {
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+
+span.input_chk {
+  position: relative;
+  height: 20px;
+  font-size: 1em;
+}
+
+/* 글씨 크기 (필수 붙은 라인) */
+label {
+  font-size: 1.3em;
+  position: relative;
+}
+
+ul.term_bx_list {
+  /*이용약관 틀*/
+  position: relative;
+  top: 100px;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);  
+}
+.term_p {
+  position: absolute;
+  top: 30%;
+  left: 30px;
+}
+.btn_type {
+  display: block;
+  width: 100%;
+  padding: 15px 0 15px;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.btns {
+  /*버튼묶음*/
+  position: absolute;
+  font-size: 32px;
+  text-align: center;
+  top: 100%;
+  left: 35%;
+  display: flex;
+}
+
+.btntext {
+  position: relative;
+  top: 10px;
+}
+
+.btnYes {
+  /* 확인 연결 필요*/
+  /* width: 200px;
+  height: 60px;
+  display: block;
+  position: absolute;
+  transform: translateX(100%);
+  z-index: 999;
+  background-color: rgb(34,146, 249);
+  color: white;
+  text-decoration-color: rgb(34,146, 249); */
+}
+.btnNo {
+  /* 취소 연결 필요*/
+  /* width: 200px;
+  height: 60px;
+  display: block;
+  position: absolute;
+  transform: translateX(-200%);
+  z-index: 999;
+  background-color: rgb(34,146, 249);
+  text-decoration-color: rgb(34,146, 249);
+  color: white;
+  font-weight: 800;
+  left: 350px; */
+}
+.nohello {
+  width: 300px;
+  height: 300px;
+}
+
+@media only screen and (max-width: 1040px) {
+body,
+button,
+form,
+h4,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: none;
+}
+
+body,
+button,
+select,
+table,
+textarea {
+  font-family: Dotum, "돋움", Helvetica, sans-serif;
   font-size: 12px; /*이용약관 라벨 글 사이즈*/
   -webkit-text-size-adjust: none;
 }
@@ -24,10 +274,10 @@ html {
 }
 
 hr {
-  position: absolute;
-  top: 190px;
+  position: relative;
+  /* border: 1px solid gray; */
   width: 100%;
-  transform: translateX(0%);
+  top: 80px
 }
 
 body,
@@ -113,13 +363,11 @@ button img {
   top: 30%;
   font-size: 1em;
   transform: translateX(-50%);
-  left: 30%;
 }
 
 .p1 {
   left: 20%;
 }
-
 .p2 {
   left: 50%;
 }
@@ -196,8 +444,9 @@ label {
 ul.term_bx_list {
   /*이용약관 틀*/
   position: relative;
-  top: 10%;
-  left: -4px;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);  
 }
 .term_p {
   position: absolute;
@@ -210,19 +459,19 @@ ul.term_bx_list {
   position: absolute;
   display: flex;
   justify-content: center;
-  /* top: 50vh; */
+  top: 75vh;
 }
 
 .btnYes {
   /* 확인 연결 필요*/
   width: 100px;
   height: 60px;
-  position: absolute;
-  top: 75vh;
-  transform: translateX(150%);
+  position: relative;
+  top: 1vh;
   z-index: 999;
   background-color: red;
-  /* left: 18vh; */
+  left: 200%;
+  transform:translateX(-50%)
   /* max-width: 80px; */
 }
 .btnNo {
@@ -230,20 +479,17 @@ ul.term_bx_list {
   width: 100px;
   height: 60px;
   position: absolute;
-  top: 75vh;
-  transform: translateX(150%);
+  top: 1vh;
+  transform: translateX(-50%);
   z-index: 999;
   background-color: black;
-  left: -5vh;
+  left: 50%;
   /* max-width: 80px; */
 }
 
-@media only screen and (max-width: 600px) {
-  .circle1,
-  .circle2,
-  .circle3 {
-    width: 10vw;
-    height: 10vw;
-    font-size: 3vw;
-  }
+.nohello {
+  display: none;
+}
+
+
 }
