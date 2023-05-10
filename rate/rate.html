@@ -6,27 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rate</title>
-    <link rel="stylesheet" href="/css/rate_hsm.css">
+    <link rel="stylesheet" href="/css/rate.css">
+    <script src="/js/rate.js" defer="defer"></script>
 </head>
 
 <body>
+    <!-- ================ header ================ -->
     <header>
         <h1 class="header-logo">메추리</h1>
         <div class="header-back-btn">
-            <a href="/main_hsm.html"><button class="back-btn-img"></button></a>
+            <a href="/rate/search-result-by-input.html"><button class="back-btn-img"></button></a>
         </div>
         <div class="header-menu-btn">
             <a href="" class="">메뉴버튼</a>
         </div>
     </header>
 
+    <!-- ================ main ================ -->
     <main>
+        <!-- 식당 사진 -->
         <div>
             <img src="/images/components/식당사진.png" alt="식당사진" class="restaurant-img">
         </div>
         <div class="restaurant-name">
             <p>청화원 신촌점</p>
         </div>
+
+        <!-- 메뉴 -->
         <select>
             <option value="" selected disabled>메뉴 선택</option>
             <option value="우육도삭면">우육도삭면</option>
@@ -34,6 +40,8 @@
             <option value="쇼마이">쇼마이</option>
             <option value="새우 아스파라거스">새우 아스파라거스</option>
         </select>
+
+        <!-- 가격 -->
         <div class="price-box">
             <p>가격</p>
             <p>8000 원</p>
@@ -46,26 +54,28 @@
         <div class="slidecontainer">
             <input type="range" min="6000" max="10000" value="8000" step="100" class="slider" id="myRange">
         </div>
+
+        <!-- 리뷰 -->
         <section class="review">
             <h1 class="review-title">리뷰</h1>
             <input type="text">
         </section>
         <div class="rate">
-            <a href="/main_hsm.html">
-                <button class="rate-btn">평가하기</button>
-            </a>
+            <button id="rateBtn" class="rate-btn">평가하기</button>
+        </div>
+
+        <!-- 모달 -->
+        <div class="modal">
+            <div class="modal-box">
+                <img src="/images/components/메추리-OK.png" alt="">
+                <p>평가를 완료할까요?</p>
+                <div class="check-btn-box">
+                    <button class="no">아니오</button>
+                    <a href="/main_hsm.html"><button class="yes">네</button></a>
+                </div>
+            </div>
         </div>
     </main>
-
-    <script>
-        var slider = document.getElementById("myRange");
-        var output = document.getElementById("demo");
-        output.innerHTML = slider.value;
-
-        slider.oninput = function () {
-            output.innerHTML = this.value;
-        }
-    </script>
 
 </body>
 
