@@ -1,0 +1,144 @@
+body {
+        margin: 0;
+        padding: 0;
+}
+
+.header {
+        width: 375px;
+        height: 145px;
+        background-color: #FFE551;
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr;
+        grid-template-rows: 1fr 1fr;
+}
+
+.logo {
+        background-image: url("/picture/메추리.png");
+        background-repeat: no-repeat;
+        background-position: top;
+        grid-column: 2/3;
+        grid-row: 2;
+        font-size: 12px;
+        
+}
+
+.mechuri-text {
+        /* grid-column: 2/3; */
+        /* grid-row : 2; */
+        font-size: 5px;
+        text-align: center;
+        margin-top: 25px;
+}
+
+.myPage {
+        background-image: url("/picture/마이페이지버튼.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        grid-column: 3/4;
+        grid-row: 2;
+        
+}
+
+.inputWrapper {
+        z-index: 100;
+}
+
+#search {
+        background-image: url("/image/search.png");
+        background-repeat: no-repeat;
+        position: relative;
+        margin-left: 20px;
+        /* z-index: 100; */
+}
+
+#input {
+        /* background-color: var(--color-realbox-background); */
+        border: 1px solid #F7BB0A;
+        border-radius: 8px;
+        color: var(--color-realbox-foreground);
+        outline: 0;
+        padding-inline-end: calc(var(--ntp-realbox-voice-icon-offset) + var(--ntp-realbox-icon-width) + var(--ntp-realbox-inner-icon-margin));
+        padding-inline-start: 52px;
+        position: absolute;
+        width: 345px;
+        height: 45px;
+        margin-top: -20px;
+        margin-left: 4%;
+}
+
+.categorie {
+        position: absolute;
+        margin-top: 50px;
+        display: flex;
+        /* align-items: center; */
+        margin-left: 20px;
+        
+}
+
+.korean {
+        width:58px;
+        height:72px;
+        border-radius: 3px;
+        /* 보더 왜 안먹나요 ㅠㅠ */
+        border-color: #F7BB0A;
+        margin-left: 11px;
+}
+
+.chinese {
+        width:58px;
+        height:72px;
+        background-color:darkorchid;
+        margin-left: 11px;
+}
+
+.japenese {
+        width:58px;
+        height:72px;
+        background-color:chartreuse;
+        margin-left: 11px;
+}
+
+.main{
+        margin: 150px 0 0 20px;
+}
+
+.main>h1{
+        font-size: 18px;
+}
+.western {
+        width:58px;
+        height:72px;
+        background-color:darkgreen;
+        margin-left: 11px;
+}
+
+.bunsik{
+        width:58px;
+        height:72px;
+        background-color:coral;
+        margin-left: 11px;
+}
+
+.ranking{
+        /* width: 335px; */
+        height: 184px;
+        background-image: url(/picture/ranking.png);
+        background-repeat: no-repeat;
+        
+}
+
+.restauValue{
+        width: 335px;
+        height: 184px;
+        background-image: url(/picture/restauvalue.png);
+        background-size: cover;
+}
+.main .restauValue>h1{
+        font-size: 18px;
+}
+
+.main .mechuri>h1{
+        font-size: 18px;
+}
+
+

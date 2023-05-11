@@ -1,57 +1,150 @@
-body {
+* {
   margin: 0;
 }
 
-html.open {
-  overflow: hidden;
+html {
+
+  height:   125px;
 }
 
-#mainBackGround {
+main {
+  margin: 0 20px 0 20px;
+}
+
+.mainBackGround {
+  background-color: yellow;
+  height: 14vh;
+  display: grid;
+  grid-template-columns: 44px 1fr 44px;
+}
+.headerText {
+  grid-column: 2;
+  display: flex;
   width: 100%;
-  height: 15vh;
-  position: sticky;
-  background-color: rgba(255, 229, 81, 0.9);
-  background-size: cover;
-  background-position: center;
-  text-align: center;
+  justify-self: center;
   align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 40%;
+
 }
 
-.Logo {
-  position: relative;
-  font-size: 4vh;
-  top: 0.5vh;
+.headerText1 {
+  font-size: 3vh;
+  margin: 0;
 }
-
-.subLogo {
-  position: relative;
-  top: -2.8vh;
-  justify-content: center;
-  align-items: center;
+.headerText2 {
   font-size: 2vh;
+  margin: 0;
 }
 
 .hamberger {
-  /* background-image: url("./images/icons/hamberger"); */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex-wrap: nowrap;
   position: relative;
-  background-repeat: no-repeat;
-  width: 4vh;
-  height: 40px;
-  bottom: 700px;
-  background-size: 40px;
-  /* align-items: flex; */
-
-  left: 300px;
+  top: 40%;
+  left: -20%;
 }
-
-.search {
-  position: fixed;
-  top: 120px;
-  z-index: 999;
+input {
+  background-color: white;
+  height: 3vmin;
   text-align: center;
-  /* float: left; */
-}
-.searchBar {
-  border-color: rgba(255, 229, 81, 0.9);
+  position: relative;
+  display: flex;
+  width: 70vmin;
+  top: 15%;
+  font-size: 1vh;
+  min-height: 3vh;
   border-radius: 8px;
+}
+
+
+.inputWrapper {
+  position: relative;
+  height: 50%;
+}
+
+.bird {
+  position: relative;
+  top:20px;
+  
+  z-index: -1;
+}
+  /* 객체지향 사실과 오해 */
+  /* 혼자 공부하는 운영체제 */
+  /*지킬 독*/
+  .birdImg{
+  width: 80vmin;
+  height: 30vmax;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url("../images/icons/캡처.PNG");
+  border-radius: 8px;
+  position: absolute;
+  left: 50%;
+  transform: translateX( -50%);
+  max-width: 30vmax;
+  max-height: 25vmax;
+}
+
+.middle {
+  position: relative;
+  top: 200px;
+}
+
+.category {
+position: relative;
+top: -1px;
+height: 10vmin;
+left: 50%;
+transform:translateX(-50%);
+width: 96vmin;
+display: grid;
+/* grid-template-columns: 44px 1fr 44px; */
+/* flex-wrap: nowrap; */
+}
+
+.menus {
+
+position: absolute;
+display: flex;
+top: 35%;
+text-align: center;
+width: 100%;
+}
+.food{
+  position: relative;
+  width: 100%;
+  border-radius: 8px;
+
+}
+
+.categoryIcon {
+  position: relative;
+  top: 20px;
+  height: 23vmax;
+  left: 50%;
+  transform:translateX(-50%);
+  width: 96vmin;
+  display: grid;
+  /* grid-template-columns: 44px 1fr 44px; */
+  /* flex-wrap: nowrap; */
+  }
+  .Iconmenus {
+    position: absolute;
+    display: flex;
+    top: 38%;
+    text-align: center;
+    width: 100%;
+    justify-content:space-evenly;
+    }
+
+.foodImage{
+
+  position: relative;
+  width: 10%;
+  border-radius: 8px;
+
 }
