@@ -26,7 +26,6 @@ header{
 }
 .header-txet {
   width: auto;
-
   /* layout */
   grid-column: 2;
   text-align: center;
@@ -34,18 +33,19 @@ header{
   top: 70px;
   transform: translateY(20px);
   font-weight: 700;
-  font-size: 20px;
+  font-size: 24px;
   color: rgb(63, 63, 63);
 }
 
 .image-icon  {
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   background-size: 60%;
   background-image: url('../images/icons/뒤로가기.png');
   background-repeat: no-repeat;
   position: absolute;
   left: 35px;
+  top:90px;
 }
 
 /* ========메인========== */
@@ -187,27 +187,28 @@ font-family: 'Noto Sans KR', sans-serif;
   margin: 20px 0px;
 }
 .input1 {
-  width: 80%;
+  width: 120%;
 }
 /*닉네임*/
 .input2 {
-  width: 160px;
+  width: 80%;
 }
 /*비밀번호*/
 .input3 {
-  width: 230px;
+  width: 120%;
 }
 /*비밀번호 확인*/
 .input4 {
-  width: 230px;
+  width: 120%;
 }
 /*이메일*/
 .input5 {
-  width: 160px;
+  width: 85%;
+  max-width: 240px;
 }
 /*휴대폰 번호*/
 .input6 {
-  width: 160px;
+  width: 85%;
 }
 /*인증 번호 입력*/
 .input7 {
@@ -216,9 +217,9 @@ font-family: 'Noto Sans KR', sans-serif;
 
 
 .next {
-
-  bottom: 20px;
-  width: 60%;
+  max-width: 235px;
+  bottom: 1vmax;
+  width: 65%;
   height: 4%;
   border-radius: 8px;
   left:50%;
