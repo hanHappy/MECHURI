@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+body {
+    margin: 0;
+    color: #545454;
+    font-family: 'Noto Sans KR';
+}
+
+main {
+    padding: 0px 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+/* =================== 헤더 =================== */
+
+header {
+    height: 144px;
+    width: 100%;
+    background-color: #FFE551;
+
+    /* layout */
+    position: sticky;
+    top: 0;
+    padding: 0 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+}
+
+.home {
+    background-image: url(/images/icons/홈.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 19.5px;
+    /* 텍스트 가리기 */
+    overflow: hidden;
+    text-indent: -999px;
+}
+
+.menu {
+    background-image: url(/images/icons/메뉴.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 19px;
+    
+
+    /* 텍스트 가리기 */
+    overflow: hidden;
+    text-indent: -999px;
+}
+
+.award{
+    background-image: url(/images/components/상장.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 60vmax;
+    margin-top: 30px;
+    padding: 40px 50px 0px 50px;
+
+    /* layout */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.award h1 {
+    font-size: 20px;
+    text-shadow: 0px 4px 4px #00000025;
+    margin-top: 20px 0px 0px 0px;
+}
+
+.my-rate-title {
+    margin-top: 10px;
+}
+
+.my-rate-data {
+    color: #2292F9;
+    text-shadow: 0px 4px 4px #00000025;
+    margin-top: 10px;
+    width: 100%;
+
+    /* layout */
+    display: flex;
+    justify-content: space-between;
+}
+
+.users-rate-title {
+    margin-top: 60px;
+}
+
+.users-rate-title span {
+    font-size: 12px;
+}
+
+.users-rate-data {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.date {
+    font-size: 12px;
+    margin-top: 25px;
+}
+
+main {
+    padding: 0px 30px;
+}
+
+.complete {
+    width: 100%;
+    height: 42px;
+    
+    /* 폰트 */
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFF;
+    
+    /* 버튼 스타일링 */
+    background-color:#2292F9;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px #00000025;
+}

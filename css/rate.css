@@ -66,7 +66,6 @@ header {
     background-image: url(/images/icons/메뉴.png);
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-position: left top; */
 
     width: 22px;
     height: 19px;
@@ -243,11 +242,14 @@ select {
     font-weight: bold;
 }
 
+.rate-btn:hover{
+    filter: brightness(0.9);
+}
+
 /* ------------- 평가 확인 모달 ------------- */
 /* 모달 창 */
 .modal {
     display: none;
-    /* 기본적으로 숨겨져 있음 */
     position: fixed;
     /* 페이지 스크롤에 영향을 받지 않음 */
     z-index: 1;
@@ -258,7 +260,7 @@ select {
     height: 100%;
     overflow: auto;
     /* 스크롤 가능하게 함 */
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     /* 반투명한 검은색 배경 */
 }
 
@@ -295,4 +297,11 @@ select {
     background-color: #F2F2F2;
     box-shadow: 0px, 6px, 10px, 0px, #00000016;
     margin: 0px 5px;
+}
+
+.no:hover{
+    filter: brightness(0.9);
+}
+.yes:hover{
+    filter: brightness(0.9);
 }

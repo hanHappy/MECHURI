@@ -6,6 +6,15 @@ body{
     font-family: 'Noto Sans KR';
 }
 
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: inherit;
+}
+
+/* =================== 헤더 =================== */
+
 header {
     height: 144px;
     width: 100%;
@@ -20,12 +29,7 @@ header {
     display: flex;
 }
 
-a{
-    text-decoration: none;
-}
-a:visited{
-    color: inherit;
-}
+
 
 .search-bar{
     width: 100%;
@@ -38,10 +42,13 @@ a:visited{
     align-self: flex-end;
 }
 
+/* =================== 메인 =================== */
+
 main{
     margin: 0px 20px;
 }
 
+/* ----------- 검색 결과 ----------- */
 .search-result{
     margin-top: 20px;
 
@@ -52,7 +59,7 @@ main{
 
 .search-result p{
     font-size: 18px;
-    margin: 0;
+    margin: 0px 0px 10px 0px;
 }
 
 .search-result-count{
@@ -60,42 +67,45 @@ main{
     color: #2292F9;
 }
 
+/* ----------- 컨텐츠 ----------- */
 .search-result-box{
-    margin: 20px 20px 0 20px;
+    margin: 10px 20px;
+}
 
+.btn-search-result{
     /* layout */
     display: grid;
     grid-template:
-    "img 상호 name" 35px
-    "img 가성비 value" 35px
+    "img 상호 name" 37px
+    "img 가성비 value" 37px
     / 75px 80px 1fr;
-    row-gap: 5px;
+    row-gap: 1px;
 }
 
-.search-result-box img{
+.btn-search-result img{
     grid-area: img;
     width: 100%;
     height: 100%;
 }
 
-.search-result-box p{
+.btn-search-result p{
     font-size: 20px;
     margin: 0;
 }
 
-.search-result-box p:nth-child(2){
+.btn-search-result p:nth-child(2){
     font-weight: bold;
 
     /* layout */
     margin-left: 20px;
     align-self: flex-end;
 }
-.search-result-box p:nth-child(3){
+.btn-search-result p:nth-child(3){
     /* layout */
     margin-left: 12px;
     align-self: flex-end;
 }
-.search-result-box p:nth-child(4){
+.btn-search-result p:nth-child(4){
     font-weight: bold;
     color: #2292F9;
     
@@ -103,58 +113,7 @@ main{
     margin-left: 20px;
     align-self: flex-start;
 }
-.search-result-box p:nth-child(5){
-    color: #2292F9;
-    
-    /* layout */
-    margin-left: 12px;
-    align-self: flex-start;
-}
-
-.search-result-box_2{
-    margin: 20px 20px 0 20px;
-
-    /* layout */
-    display: grid;
-    grid-template:
-    "img 상호 name" 35px
-    "img 가성비 value" 35px
-    / 75px 80px 1fr;
-    row-gap: 5px;
-}
-
-.search-result-box_2 img{
-    grid-area: img;
-    width: 100%;
-    height: 100%;
-}
-
-.search-result-box_2 p{
-    font-size: 20px;
-    margin: 0;
-}
-
-.search-result-box_2 p:nth-child(2){
-    font-weight: bold;
-
-    /* layout */
-    margin-left: 20px;
-    align-self: flex-end;
-}
-.search-result-box_2 p:nth-child(3){
-    /* layout */
-    margin-left: 12px;
-    align-self: flex-end;
-}
-.search-result-box_2 p:nth-child(4){
-    font-weight: bold;
-    color: #2292F9;
-
-    /* layout */
-    margin-left: 20px;
-    align-self: flex-start;
-}
-.search-result-box_2 p:nth-child(5){
+.btn-search-result p:nth-child(5){
     color: #2292F9;
     
     /* layout */
