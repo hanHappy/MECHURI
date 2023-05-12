@@ -1,7 +1,7 @@
 /* ---------전체 ----------*/
 body {
-  margin: 0;
 font-size:16px;
+margin: 0;
 }
 
 main{
@@ -10,7 +10,7 @@ main{
 
 /* ---------헤더 ----------*/
 header{
-  height: 144px;
+  height: 145px;
   width: 100%;
   background-color: #FFE551;
   z-index: -1;
@@ -51,7 +51,8 @@ header{
   position: relative;
   width: 100%;
   height: 100px;
-  
+  margin-top: 30px;
+  top:-10px
 }
 
 .circle  {
@@ -71,6 +72,8 @@ header{
 .circle1 {
   left: 18%;
   background-color: rgb(255, 246, 198);
+  color: gray;
+
 }
 .circle2 {
   left: 50%;
@@ -81,6 +84,8 @@ header{
 .circle3 {
   left: 82%;
   background-color: rgb(255, 246, 198);
+  color: gray;
+
 }
 
 .Inline {
@@ -104,12 +109,13 @@ header{
   top: -40px;
   font-size: 14px;
   font-family: 'Noto Sans KR', sans-serif;
+
 }
 
 .circleText1 {
   grid-column: 1;
   width: auto;
-  
+  color: gray;
 }
 .circleText2 {
   grid-column: 2;
@@ -119,49 +125,46 @@ header{
 .circleText3 {
   grid-column: 3;
   width: auto;
+  color: gray;
 }
 
 /*====정보 입력 칸====*/
 
 .sectionBox {
-  box-sizing: border-box;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;  
+  display: block;
+
   position: absolute;
   transform: translateX(-50%);
   left: 50%;
-font-weight: 700;
+  font-weight: 700;
+  margin: 30px 0 30px 0;
 
 }
 input[type=button] {
-width: 65px;
-height: 30px;
+width: 60px;
+height: 45px;
 position: absolute;
-left: 170px;
+left: 240px;
 font-size: 12px;
 text-align: center;
 cursor: pointer;
-border: 1px solid rgb(132, 132, 132);
 background-color: white;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-
+input {
+  border-radius: 6px;  
+  border-style: none;
+  background-color: #EEEEEE;
+  height: 45px;
+  position: relative;
+  font-family: 'Noto Sans KR', sans-serif;
+  }
 
 ::placeholder {
   color: rgb(167, 167, 167);
   font-size: 0.5em;
   font-family: 'Noto Sans KR', sans-serif;
-
-}
-
-input {
-border-radius: 6px;  
-border-style: none;
-background-color: rgb(234, 234, 234);
-height: 30px;
-position: relative;
-font-family: 'Noto Sans KR', sans-serif;
 }
 
 .text {
@@ -171,53 +174,45 @@ font-family: 'Noto Sans KR', sans-serif;
 }
 
 .nickNameParent {
-  margin: 20px 0px;
+  margin: 10px 0px;
 }
 .pwParent {
-  margin: 20px 0px;
+  margin: 10px 0px;
 }
 .PhoneNumParent{
-  margin: 20px 0px;
+  margin: 10px 0px;
 }
 .input1 {
-  width: 120%;
+  width: 295px;
 }
 /*닉네임*/
 .input2 {
-  width: 80%;
+  width: 222px;
 }
 /*비밀번호*/
 .input3 {
-  width: 120%;
+  width: 295px;
 }
 /*비밀번호 확인*/
 .input4 {
-  width: 120%;
+  width: 295px;
 }
 /*이메일*/
 .input5 {
-  width: 85%;
-  max-width: 240px;
+  width: 222px;
 }
 /*휴대폰 번호*/
 .input6 {
-  width: 85%;
+  width: 222px;
 }
 /*인증 번호 입력*/
 .input7 {
-  width: 230px;
+  width: 295px;
 }
 
-
 .next {
-  max-width: 235px;
-  bottom: -4vh;
-  width: 65%;
-  height: 4%;
   border-radius: 8px;
-  left:50%;
   transform: translateX(-50%);
-  position: absolute;
   background-color: rgb(34,146,249);
   text-align: center;
   color: white;
@@ -225,5 +220,33 @@ font-family: 'Noto Sans KR', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
+  
+  position: absolute;
+  width: 295px;
+  max-width: 235px;
 
+  height: 42px;
+  left: 50%;
+  top: 942px;
+  transform: translateX(-50%);
+}
+.line {
+  position: absolute;
+  width: 295px;
+  height: 0px;
+  top: 296px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid #C6C6C6;
+}
+
+.line1 {
+  position: absolute;
+  width: 295px;
+  height: 0px;
+  left: 50%;
+  top: 900px;
+  transform: translateX(-50%);
+  border: 1px solid #C6C6C6;
+  margin-bottom: 40px;
 }
