@@ -5,99 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../css/SignIn.css" />
+    <link rel="stylesheet" href="css/SignIn.css" />
+    <link
+      rel="stylesheet"
+      href="//fonts.googleapis.com/earlyaccess/notosanskr.css"
+    />
   </head>
-  <header>
-    <section id="mainBackGround">
-      <a href="main.html">
-        <button id="backbutton">
-          <img src="../images/icons/back.png" />  a
-        </button>
-      </a>
-  </header>
   <body>
-      <div class="Logos">
-            <section class = "circleParent">
-          <div class="circle1" id="circle"style="font-weight: bold;">1</div>
-          <div class="circle2" id="circle">2</div>
-          <div class="circle3" id="circle">3</div>
-          <div class="Inline"></div>
-        </section>
+    <header>
+      <div class="header-logo"></div>
+      <a href="main_hsm.html">
+        <div class="back"></div>
+      </a>
+    </header>
 
-        <section class="SignInParent">
-          <div class="SignIn">
-            <p class="p1 Sign"style="font-weight: bold;">약관 동의</p>
-            <p class="p2 Sign" >정보 입력</p>
-            <p class="p3 Sign">가입 완료</p>
-          </div>
-        </section>
-        </div>
+    <main>
+      <div class="login2_image"></div>
+      <div class="idAndPw">
+        <form>
+          <span class="login"> 아이디 </span>
+        </form>
+        <span class="id">
+          <input type="email" placeholder="가입하신 이메일을 입력해주세요." />
+        </span>
 
-      <hr/> 
-      <!-- 줄긋기(?) -->
+        <form>
+          <span class="pass">비밀번호</span>
+        </form>
+        <span class="pw">
+          <input type="password" placeholder="비밀번호을 입력해주세요." />
+        </span>
+      </div>
 
-        <div class = "term_p">
-            <ul class = "term_bx_list">
-                <li class = "terms_bx"></li>
-                <span class = "input_chk">
-                    <input type ="checkbox" id="termService" name ="termsService" class="chk">
-                    <label for="termsService">
-                        "이용약관 동의"
-                        <span class = "terms_necessary">(필수)</span>
-                    </label>
-                </span>
-                <div class = "terms_box">
-                <div class ="article">
-                    <h4 class = "article_title"> 여러분을 환영합니다</h4>
-                  </br>
-                    <p class = "article_text"> " 우리 서비스를 이용해 주셔서 감사합니다. 본 약관은 메추리 서비스의 이용과 관려하여 서비스를 제공하는 메추리와 이를 이용하려는 회원, 또는 비회원과의 관계를 설명하고 아울러 여러분의 서비스 이용에 도움이 될 수 있는 유익한 정보를 포함하고 있습니다. "</p>
-                </div>
-            </div>
-                <li class = "terms_bx"></li>
-                <span class = "input_chk">
-                </br>
-                    <input type ="checkbox" id="termService" name ="termsService" class="chk">
-                    <label for="termsService">
-                         "개인정보 수집 및 이용 동의"
-                        <span class = "terms_necessary">(필수)</span>
-                    </label>
-                </span>
-                <div class = "terms_box">
-                    <div class ="article">
-                        <h4 class = "article_title"> 여러분을 환영합니다</h4>
-                    </br>
-                        <p class = "article_text"> " 우리 서비스를 이용해 주셔서 감사합니다. 본 약관은 메추리 서비스의 이용과 관려하여 서비스를 제공하는 메추리와 이를 이용하려는 회원, 또는 비회원과의 관계를 설명하고 아울러 여러분의 서비스 이용에 도움이 될 수 있는 유익한 정보를 포함하고 있습니다. "</p>
-                    </div>
-                </div>
-                <li class = "terms_bx"></li>
-                <span class = "input_chk">
-                </br>
-                    <input type ="checkbox" id="termService" name ="termsService" class="chk">
-                    <label for="termsService">
-                        "위치기반서비스 이용약관 동의"
-                        <span class = "terms_necessary">(필수)</span>
-                    </label>
-                </span>
-                <div class = "terms_box">
-                    <div class ="article">
-                        <h4 class = "article_title"> 여러분을 환영합니다</h4>
-                      </br>
-                        <p class = "article_text"> " 우리 서비스를 이용해 주셔서 감사합니다. 본 약관은 메추리 서비스의 이용과 관려하여 서비스를 제공하는 메추리와 이를 이용하려는 회원, 또는 비회원과의 관계를 설명하고 아울러 여러분의 서비스 이용에 도움이 될 수 있는 유익한 정보를 포함하고 있습니다. "</p>
-                    </div>
-                </div>
-            </ul>
-        </div> <!-- 이용 약관 끝나는 시점 --> 
-
-        
-          <div class = "btns">
-            <a href="SignIn2.html" class = "btnYes"></a>
-            <button id="backbutton"></button>
-
-          <a href="main.html" class = "btnNo"></a>
-          <button id="backbutton"></button>
-          </div>
-        
-
-
+      <div class="input-container">
+        <button class="submitbtn">
+          <a href="main.html">확인 </a>
+        </button>
+      </div>
+    </main>
   </body>
 </html>

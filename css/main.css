@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+html {
+  height: 125px;
+}
+
 main {
   margin: 0 20px 0 20px;
 }
@@ -11,7 +15,7 @@ main {
   background-color: yellow;
   height: 14vh;
   display: grid;
-  grid-template-columns: 40px 1fr 40px;
+  grid-template-columns: 10px 1fr 100px;
 }
 .headerText {
   grid-column: 2;
@@ -71,7 +75,7 @@ input {
 /*지킬 독*/
 .birdImg {
   width: 80vmin;
-  height: 45vmin;
+  height: 30vmax;
   background-repeat: no-repeat;
   background-size: 100%;
   background-image: url("../images/icons/캡처.PNG");
