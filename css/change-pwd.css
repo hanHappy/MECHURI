@@ -60,12 +60,17 @@ h2{
     font-size: 12px;
 }
 
-.input-change-pwd-wrapper li{
+.input-change-pwd-wrapper input{
     line-height: 12px;
     padding: 12px 0 13px 10px;
     font-weight: bold;
-    color: #9d999960;
+    /* color: #9d999980; */
     list-style: none;
+    
+}
+
+input:focus {
+    outline: none;
 }
 
 li{
