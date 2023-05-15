@@ -50,6 +50,8 @@ button{
     margin :0 42px;
     padding: 0;
     margin-top: 70px;
+    box-shadow: 2px 2px 4px #00000025;
+    border-radius: 8px;
 }
 
 button a{
