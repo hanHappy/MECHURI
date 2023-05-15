@@ -3,7 +3,7 @@ body{
     margin: 0 auto;
     padding: 0;
     font-family: 'Noto Sans KR', sans-serif;
-    list-style: none;
+    
     background-color: #f7f7f7;
 }
 
@@ -38,7 +38,16 @@ h2{
     text-align: center;
 }
 
+.input-change-pwd-wrapper ul{
+    font-size : 16px;
+    color:#282828;
+    font-weight: bold;
+    padding-left: 5px;
+}
 
+.input-change-pwd-wrapper{
+    margin: 30px 20px 0 20px;
+}
 
 .input-change-pwd{
     width: 335px;
@@ -49,9 +58,40 @@ h2{
     font-size: 12px;
 }
 
-.input-change-pwd li{
+.input-change-pwd-wrapper li{
     line-height: 12px;
-    padding: 10px 0 13px 10px;
+    padding: 12px 0 13px 10px;
     font-weight: bold;
     color: #9d999960;
+    list-style: none;
+}
+
+li{
+    font-size: 12px;
+    padding : 20px 0 5px 20px;
+    color: #b2b2b2;
+}
+
+button{
+    width: 335px;
+    height: 42px;
+    border: none;
+    background-color: #2292F9;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: 10px 20px;
+    box-shadow: 2px 2px 4px #00000025;
+    
+    
+}
+
+button > a{
+    text-decoration: none;
+    color: #ffffff;
+}
+/* 첫 주의사항만 따로 마진 넣음*/
+.first-li{
+   margin-top: 10px ;
 }
