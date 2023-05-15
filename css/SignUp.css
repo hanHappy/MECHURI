@@ -1,20 +1,24 @@
 /* ---------전체 ----------*/
 body {
-font-size:16px;
-margin: 0;
+  font-size: 16px;
+  margin: 0;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
-main{
+main {
   margin: 40px 20px;
-}
 
+}
+*{
+  font-weight: 700;
+
+}
 /* ---------헤더 ----------*/
-header{
+header {
   height: 145px;
   width: 100%;
-  background-color: #FFE551;
+  background-color: #ffe551;
   z-index: -1;
-  font-family: 'Noto Sans KR', sans-serif;
   /* item layout */
   display: grid;
   grid-template-columns: 44px 1fr 44px;
@@ -31,19 +35,19 @@ header{
   top: 70px;
   transform: translateY(20px);
   font-weight: 700;
-  font-size: 24px;
+  font-size: 20px;
   color: rgb(63, 63, 63);
 }
 
-.image-icon  {
+.back {
   height: 40px;
   width: 40px;
-  background-size: 60%;
-  background-image: url('../images/icons/뒤로가기.png');
+  background-size: 40%;
+  background-image: url("../images/icons/뒤로가기.png");
   background-repeat: no-repeat;
   position: absolute;
   left: 35px;
-  top:90px;
+  top: 95px;
 }
 
 /* ========메인========== */
@@ -52,10 +56,10 @@ header{
   width: 100%;
   height: 100px;
   margin-top: 30px;
-  top:-10px
+  top: -10px;
 }
 
-.circle  {
+.circle {
   width: 52px;
   height: 52px;
   position: absolute;
@@ -65,51 +69,45 @@ header{
   justify-content: center;
   font-size: 26px;
   transform: translateX(-50%);
-  font-family: 'Noto Sans KR', sans-serif;
-  
 }
 
 .circle1 {
   left: 18%;
   background-color: rgb(255, 246, 198);
   color: gray;
-
 }
 .circle2 {
   left: 50%;
   background-color: rgba(255, 229, 81, 1);
   font-weight: 700;
-  
 }
 .circle3 {
   left: 82%;
   background-color: rgb(255, 246, 198);
   color: gray;
-
 }
 
 .Inline {
   width: 60%;
   height: 1px;
-  top: 25%;
   position: absolute;
-  background-color: black;
+  top: 25%;
   left: 50%;
   transform: translateX(-50%);
+  background-color: black;
   z-index: -2;
 }
 
-.circleTextMain{
+.circleTextMain {
   position: relative;
   display: grid;
   align-items: center;
   justify-items: center;
-  width: 340px;
-  /* grid-template-rows: 100%; */
-  top: -40px;
+  width: 100%;
+  grid-template-rows: 100%;
+  top: -60px;
   font-size: 14px;
-  font-family: 'Noto Sans KR', sans-serif;
-
+  margin-top: 10px;
 }
 
 .circleText1 {
@@ -134,102 +132,78 @@ header{
 
 .sectionBox {
   display: block;
-
   position: absolute;
   transform: translateX(-50%);
   left: 50%;
   font-weight: 700;
-  margin: 30px 0 30px 0;
-
+  margin: 30px 0 41px 0;
 }
-input[type=button] {
-width: 60px;
-height: 45px;
-position: absolute;
-left: 240px;
-font-size: 12px;
-text-align: center;
-cursor: pointer;
-background-color: white;
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+input[type="submit"] {
+  width: 60px;
+  height: 45px;
+  position: absolute;
+  left: 280px;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+  background-color: white;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 input {
-  border-radius: 6px;  
+  border-radius: 6px;
   border-style: none;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   height: 45px;
   position: relative;
-  font-family: 'Noto Sans KR', sans-serif;
-  }
+}
 
 ::placeholder {
   color: rgb(167, 167, 167);
-  font-size: 0.5em;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 12px;
 }
 
 .text {
   position: relative;
-  font-size: 14px;
-  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.numParent,
+.pwParent,
+.PhoneNumParent,
+.nickNameParent {
+  margin: 14px 0px;
 }
 
-.nickNameParent {
-  margin: 10px 0px;
-}
-.pwParent {
-  margin: 10px 0px;
-}
-.PhoneNumParent{
-  margin: 10px 0px;
-}
-.input1 {
-  width: 295px;
-}
-/*닉네임*/
-.input2 {
-  width: 222px;
-}
-/*비밀번호*/
-.input3 {
-  width: 295px;
-}
-/*비밀번호 확인*/
+.input1,
+.input3,
 .input4 {
-  width: 295px;
+  width: 335px;
 }
-/*이메일*/
-.input5 {
-  width: 222px;
-}
-/*휴대폰 번호*/
+.input7,
+.input9,
+.input2,
+.input5,
 .input6 {
-  width: 222px;
-}
-/*인증 번호 입력*/
-.input7 {
-  width: 295px;
+  width: 250px;
 }
 
 .next {
   border-radius: 8px;
-  transform: translateX(-50%);
-  background-color: rgb(34,146,249);
-  text-align: center;
+  background-color: rgb(34, 146, 249);
   color: white;
-  font-weight: 600;
+  font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
   position: absolute;
   width: 295px;
   max-width: 235px;
 
   height: 42px;
   left: 50%;
-  top: 942px;
+  top: 1177px;
   transform: translateX(-50%);
 }
 .line {
@@ -239,7 +213,7 @@ input {
   top: 296px;
   left: 50%;
   transform: translateX(-50%);
-  border: 1px solid #C6C6C6;
+  border: 1px solid #c6c6c6;
 }
 
 .line1 {
@@ -247,8 +221,17 @@ input {
   width: 295px;
   height: 0px;
   left: 50%;
-  top: 900px;
+  top: 1137px;
   transform: translateX(-50%);
-  border: 1px solid #C6C6C6;
+  border: 1px solid #c6c6c6;
   margin-bottom: 40px;
 }
+/* 
+#passwordCheck {
+  width: 100px;
+  height: 100px;
+}
+#result{
+  width: 100px;
+  height: 100px;
+} */
