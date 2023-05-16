@@ -1,5 +1,5 @@
 // 가격 스크롤 ----------------------------------------
-let slider = document.getElementById("myRange");
+let slider = document.getElementById("my-range");
 let output = document.getElementById("demo");
 output.innerHTML = slider.value;
 
@@ -10,6 +10,7 @@ slider.oninput = function () {
 // 평가 확인 모달 --------------------------------------
 // 평가하기 버튼 클릭 시 모달 창 열기
 window.onload = function(){
+    let rateBtn = document.querySelector('#rate-btn');
     rateBtn.onclick = openModal;
 
     // 모달 열기 함수

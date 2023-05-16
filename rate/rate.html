@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rate</title>
+    <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/rate.css">
     <script src="/js/rate.js" defer="defer"></script>
 </head>
@@ -13,12 +14,14 @@
 <body>
     <!-- ================ header ================ -->
     <header>
-        <h1 class="header-logo">메추리</h1>
-        <div class="header-back-btn">
-            <a href="/rate/search-result-by-input.html"><button class="back-btn-img"></button></a>
-        </div>
-        <div class="header-menu-btn">
-            <a href="" class="">메뉴버튼</a>
+        <div class="header-contents-wrapper">
+            <div class="header-back-btn">
+                <a href="/rate/search-result-by-input.html"><button class="back-btn-img"></button></a>
+            </div>
+            <h1 class="header-logo">메추리</h1>
+            <div class="header-menu-btn">
+                <a href="" class="">메뉴버튼</a>
+            </div>
         </div>
     </header>
 
@@ -26,42 +29,59 @@
     <main>
         <!-- 식당 사진 -->
         <div>
-            <img src="/images/components/식당사진.png" alt="식당사진" class="restaurant-img">
+            <img src="/images/components/식당사진.png" class="restaurant-img" alt="식당사진">
         </div>
-        <div class="restaurant-name">
+
+        <!-- 상호명 -->
+        <div class="restaurant-name-wrapper">
             <p>청화원 신촌점</p>
         </div>
 
-        <!-- 메뉴 -->
-        <select>
-            <option value="" selected disabled>메뉴 선택</option>
-            <option value="우육도삭면">우육도삭면</option>
-            <option value="유발도삭면">유발도삭면</option>
-            <option value="쇼마이">쇼마이</option>
-            <option value="새우 아스파라거스">새우 아스파라거스</option>
-        </select>
-
-        <!-- 가격 -->
-        <div class="price-box">
-            <p>가격</p>
-            <p>8000 원</p>
-        </div>
-        <div class="rated-price-box">
-            <p>평가가격</p>
-            <p><span id="demo"></span></p>
-            <span>원</span>
-        </div>
-        <div class="slidecontainer">
-            <input type="range" min="6000" max="10000" value="8000" step="100" class="slider" id="myRange">
-        </div>
-
-        <!-- 리뷰 -->
-        <section class="review">
-            <h1 class="review-title">리뷰</h1>
-            <input type="text">
+        <!-- 메뉴 선택 -->
+        <section class="menu-selection">
+            <h1>메뉴를 선택해주세요</h1>
+            <select class="menu-dropbox">
+                <option value="" disabled selected>메뉴 선택</option>
+                <option value="">우육도삭면</option>
+                <option value="">쇼마이</option>
+                <option value="">유발도삭면</option>
+                <option value="">새우 아스파라거스</option>
+                <option value="">마라두부</option>
+            </select>
         </section>
-        <div class="rate">
-            <button id="rateBtn" class="rate-btn">평가하기</button>
+
+        <!-- 평가 가격 -->
+        <section class="rate">
+            <h1>평가가격을 입력해주세요</h1>
+            <div class="selling-price-box">
+                <p>판매가격</p>
+                <div class="selling-price">
+                    <span>8000</span>
+                    <span>원</span>
+                </div>
+            </div>
+            <div class="my-price-box">
+                <p>나의 평가가격</p>
+                <div class="my-price">
+                    <input id="demo" type="number">
+                    <span>원</span>
+                </div>
+            </div>
+            <!-- 가격 슬라이더 -->
+            <div class="slide-container">
+                <input type="range" min="6000" max="10000" value="8000" step="100" class="slider" id="my-range">
+            </div>
+        </section>
+
+        <!-- 한줄평 -->
+        <section class="comment">
+            <h1>한줄평을 작성해주세요</h1>
+            <!-- <input type="text" placeholder="100자 내로 리뷰를 작성해주세요"> -->
+            <textarea rows="5" placeholder="100자 내로 리뷰를 작성해주세요"></textarea>
+        </section>
+
+        <div class="rate-btn-container">
+            <button id="rate-btn" class="rate-btn">평가하기</button>
         </div>
 
         <!-- 모달 -->

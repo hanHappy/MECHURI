@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+body {
+    margin: 0;
+    color: #282828;
+    font-family: 'Noto Sans KR';
+}
+
+:root {
+    /* ------------------ 색상 ------------------ */
+    /* 메인 컬러 */
+    --main-color: #FFE551;
+    /* 서브 컬러 */
+    --sub-color: #2292F9;
+    /* 페이지 배경색 */
+    --background-color: #F5F5F7;
+
+    --hint-color: #9D9999;
+    --box-color: #EEE;
+    --section-shadow: 0px 1px 4px 0px #0002;
+    --btn-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    --font: 'Noto Sans KR';
+    --content-margin: 5px 0px;
+    --content-padding: 32px 20px;
+    --contents-space: 8px;
+    --box-radius: 8px;
+    --btn-height: 41px;
+}
