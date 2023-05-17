@@ -74,13 +74,13 @@ header a {
 
 
 input {
-  width: 295px;
-  height: 30px;
+  width: 335px;
+  height: 45px;
   z-index: -1;
   border-radius: 8px;
   margin-bottom: 15px;
   border-style: hidden;
-  /* text-align: end; */
+  /* text-align: center; */
   padding: 0px 0px 0px 90px;  
   box-sizing: border-box;
 }
@@ -94,7 +94,7 @@ input {
   font-size: 18px;
   z-index: 90;
   left: 10px;
-  line-height: 35px;
+  line-height: 40px;
 }
 .pass {
   position: absolute;
@@ -103,14 +103,14 @@ input {
   font-size: 18px;
   z-index: 90;
   left: 10px;
-  line-height: 35px;
+  line-height: 40px;
 }
 
 .idAndPw {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  width: 295px;
+  width: 335px;
   margin-top: 83px;
   text-align: end;
 }
@@ -122,9 +122,6 @@ input {
   color: gray;
   text-align: end;
 }
-
-
-
 
 input[type="password"]:focus,
 input[type="email"]:focus {
@@ -144,7 +141,7 @@ input[type="email"]:focus {
   position: absolute;
   left: 20%;
   transform: translateX(-50%);
-  height: 32px;
+  height: 45px;
   text-align: center;
   width: 60px;
 
@@ -158,19 +155,18 @@ input[type="email"]:focus {
   height: 42px;
   grid-template-rows: 100%;
   position: relative;
-  top: 180px;
-  margin-right: 40px
+  top: 220px;
+  margin-right: 20px;
 }
 
 
 .submitbtn {
-
   grid-column: 3;
-  font-size:16px;
-  background-color: yellow;
+  font-size:18px;
+  background-color: rgb(255,234,116);
   border-style: none;
-
-  
+  font-weight: 900;
+  border-radius: 8px;
 }
 
 a {

@@ -22,7 +22,7 @@
     if(email.value !==pattern){
         result.innerText = "유효하지 않은 이메일 입니다."
     }
-    if(email.value ==pattern){
+    else if(email.value ==pattern){
     result.innerText = "유효한 이메일 입니다."
     }
 
