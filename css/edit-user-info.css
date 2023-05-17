@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+
 body{
     width: 375px;
     margin: 0 auto;
@@ -82,14 +85,14 @@ ul{
     margin:10px auto;
     display: flex;
     flex-direction: row;
-    
+
 }
 
 /*회원 정보 표시*/
 .box{
     width:279px;
     height:39px;
-    position: absolute;
+    /* position: absolute; */
     /* padding: 0 0 0 10px; */
     line-height: 36px;
     background-color: #eeeeee;
@@ -116,6 +119,7 @@ li{
     text-align: center;
     line-height: 39px;
     font-size: 14px;
+    margin-left: 10px;
     
 }
 
