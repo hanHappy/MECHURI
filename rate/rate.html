@@ -37,52 +37,57 @@
             <p>청화원 신촌점</p>
         </div>
 
-        <!-- 메뉴 선택 -->
-        <section class="menu-selection">
-            <h1>메뉴를 선택해주세요</h1>
-            <select class="menu-dropbox">
-                <option value="" disabled selected>메뉴 선택</option>
-                <option value="">우육도삭면</option>
-                <option value="">쇼마이</option>
-                <option value="">유발도삭면</option>
-                <option value="">새우 아스파라거스</option>
-                <option value="">마라두부</option>
-            </select>
-        </section>
+        <!-- -------------- 사용자 입력단 -------------- -->
+        <section class="input-contents-wrapper">
+            <!-- 메뉴 선택 -->
+            <section class="menu-selection">
+                <h1>메뉴를 선택해주세요</h1>
+                <select class="menu-dropbox">
+                    <option value="" disabled selected>메뉴 선택</option>
+                    <option value="">우육도삭면</option>
+                    <option value="">쇼마이</option>
+                    <option value="">유발도삭면</option>
+                    <option value="">새우 아스파라거스</option>
+                    <option value="">마라두부</option>
+                </select>
+            </section>
 
-        <!-- 평가 가격 -->
-        <section class="rate">
-            <h1>평가가격을 입력해주세요</h1>
-            <div class="selling-price-box">
-                <p>판매가격</p>
-                <div class="selling-price">
-                    <span>8000</span>
-                    <span>원</span>
+            <!-- 평가 가격 -->
+            <section class="rate">
+                <h1>평가가격을 입력해주세요</h1>
+                <div class="selling-price-box">
+                    <p>판매가격</p>
+                    <div class="selling-price">
+                        <span>8000</span>
+                        <span>원</span>
+                    </div>
                 </div>
-            </div>
-            <div class="my-price-box">
-                <p>나의 평가가격</p>
-                <div class="my-price">
-                    <input id="demo" type="number">
-                    <span>원</span>
+                <div class="my-price-box">
+                    <p>나의 평가가격</p>
+                    <div class="my-price">
+                        <input id="demo" type="number">
+                        <span>원</span>
+                    </div>
                 </div>
-            </div>
-            <!-- 가격 슬라이더 -->
-            <div class="slide-container">
-                <input type="range" min="6000" max="10000" value="8000" step="100" class="slider" id="my-range">
+                <!-- 가격 슬라이더 -->
+                <div class="slide-container">
+                    <input type="range" min="6000" max="10000" value="8000" step="100" class="slider" id="my-range">
+                </div>
+            </section>
+
+            <!-- 한줄평 -->
+            <section class="comment">
+                <h1>한줄평을 작성해주세요</h1>
+                <!-- <input type="text" placeholder="100자 내로 리뷰를 작성해주세요"> -->
+                <textarea rows="5" placeholder="100자 내로 리뷰를 작성해주세요"></textarea>
+            </section>
+            
+            <!-- 평가하기 버튼 -->
+            <div class="rate-btn-container">
+                <button id="rate-btn" class="rate-btn">평가하기</button>
             </div>
         </section>
 
-        <!-- 한줄평 -->
-        <section class="comment">
-            <h1>한줄평을 작성해주세요</h1>
-            <!-- <input type="text" placeholder="100자 내로 리뷰를 작성해주세요"> -->
-            <textarea rows="5" placeholder="100자 내로 리뷰를 작성해주세요"></textarea>
-        </section>
-
-        <div class="rate-btn-container">
-            <button id="rate-btn" class="rate-btn">평가하기</button>
-        </div>
 
         <!-- 모달 -->
         <div class="modal">

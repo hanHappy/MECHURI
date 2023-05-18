@@ -1,4 +1,4 @@
-@import url('/css/style.css');
+@import url(style.css);
 
 body {
     background-color: var(--background-color);
@@ -77,18 +77,18 @@ main {
     max-width: 1200px;
 }
 
-/* --------------------- 식당 이미지 --------------------- */
+/* ----------- 식당 이미지 ----------- */
 .restaurant-img {
     width: 100%;
 }
 
-/* --------------------- 상호명 --------------------- */
+/* ----------- 상호명 ----------- */
 .restaurant-name-wrapper {
     background-color: #fff;
     height: 3em;
     font-size: 24px;
     font-weight: bold;
-    box-shadow: var(--section-shadow);
+    box-shadow: var(--block-shadow);
 
     /* layout */
     display: flex;
@@ -96,12 +96,20 @@ main {
     justify-content: center;
 }
 
-/* --------------------- 메뉴 선택 --------------------- */
-.menu-selection {
-    margin-top: 8px;
-    padding: 24px 20px;
+/* ----------- 사용자 입력 컨텐츠 wrapper ----------- */
+.input-contents-wrapper {
     background-color: #fff;
-    box-shadow: var(--section-shadow);
+
+    /* layout */
+    display: flex;
+    flex-direction: column;
+    margin-top: var(--block-space);
+    padding: 20px;
+}
+
+/* ----------- 메뉴 선택 ----------- */
+.menu-selection {
+    background-color: #fff;
 
     /* layout */
     display: flex;
@@ -128,16 +136,14 @@ main {
     margin: var(--content-margin);
 }
 
-/* --------------------- 평가 --------------------- */
+/* ----------- 평가 ----------- */
 .rate {
-    margin-top: 8px;
-    padding: 24px 20px;
     background-color: #fff;
-    box-shadow: var(--section-shadow);
 
     /* layout */
     display: flex;
     flex-direction: column;
+    margin-top: var(--content-space);
 }
 
 .rate h1 {
@@ -228,16 +234,14 @@ main {
     cursor: pointer;
 }
 
-/* --------------------- 리뷰 --------------------- */
+/* ----------- 리뷰 ----------- */
 .comment {
-    margin-top: var(--contents-space);
-    padding: var(--content-padding);
     background-color: #fff;
-    box-shadow: var(--section-shadow);
 
     /* layout */
     display: flex;
     flex-direction: column;
+    margin-top: var(--content-space);
 }
 
     .comment h1 {
@@ -250,17 +254,16 @@ main {
         margin: var(--content-margin);
         background-color: var(--box-color);
         border: none;
-        border-radius: var(--box-radius);
+        border-radius: var(--border-radius);
         height: 80px;
         padding: 10px;
         resize: none;
     }
 
-/* ------------------- 평가 버튼 ------------------- */
+/* ----------- 평가 버튼 ----------- */
 .rate-btn-container {
-    margin-top: 10px;
+    margin-top: var(--content-space);
     width: 100%;
-    padding: var(--content-padding);
     box-sizing: border-box;
 }
 
@@ -269,7 +272,7 @@ main {
         width: 100%;
         background-color: var(--sub-color);
         border: none;
-        border-radius: var(--box-radius);
+        border-radius: var(--border-radius);
         font-size: 18px;
         color: #fff;
         font-weight: bold;
@@ -297,7 +300,7 @@ main {
     .modal-box {
         font-weight: bold;
         background-color: #fff;
-        border-radius: var(--box-radius);
+        border-radius: var(--border-radius);
         padding: 45px 0;
         box-sizing: border-box;
 
@@ -325,7 +328,7 @@ main {
                 width: 80px;
                 height: 40px;
                 border: none;
-                border-radius: var(--box-radius);
+                border-radius: var(--border-radius);
                 margin: 0px 5px;
             }
 
