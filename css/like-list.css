@@ -20,8 +20,20 @@ body{
     justify-items: center; 
     align-items: center;
     text-align: center;
-    
+    justify-content: center;
 }
+
+.back-to-index{
+    /* display:  */
+    margin-left: 25px;
+    background-image: url("../images/HomeButton.svg");
+    background-size:100%;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    margin-top:60px;
+    /* background-color: black; */
+    } 
 
 h1{
     font-size: 18px;
