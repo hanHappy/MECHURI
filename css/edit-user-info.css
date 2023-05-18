@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
-
+@import url('/css/style.css');
 
 body{
     width: 375px;
@@ -14,20 +14,35 @@ body{
     height: 145px;
     display: flex; 
     align-items: center;
-    background-color: #FFE551;
+    background-color: var(--main-color);
     justify-items: center; 
     align-items: center;
     text-align: center;
     
 }
+
+.back-to-index{
+    margin-left: 30px;
+    background-image: url("../images/HomeButton.svg");
+    background-size:100%;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    margin:60px 0px 0px 64px;
+    
+    /* background-color: black; */
+    } 
+
 .goback{
     width:60px;
-    margin-top: 50px;
+    margin: 50px 32px 0 2px;
+   
 }
 
 .mypage-text{
     flex-grow: 0.75;
     margin-top: 40px;
+    margin-left: 16px;
 }
 
 .edit-user-info-wrapper{ 
@@ -35,7 +50,8 @@ body{
     height:61px;
     background-color: white;
     /*피그마 수치 0.4*/
-    border-bottom: 0.3px solid rgba(0, 0, 0, 0.2);
+    /* border-bottom: 0.3px solid rgba(0, 0, 0, 0.2); */
+    border-bottom: var(--bottom-stroke);
 }
 
 h1{
