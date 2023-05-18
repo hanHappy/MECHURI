@@ -130,5 +130,5 @@ header {
     box-shadow: var(--btn-shadow);
 
     /* layout */
-    margin-top: var(--content-space);
+    margin-top: var(--contents-space);
 }

@@ -44,8 +44,8 @@ main{
     /* --------------- 레이아웃 --------------- */
     /* 블럭 간 간격 (블럭 margin-top) */
     --block-space: 8px;
-    /* 컨텐트 간 간격 (컨텐츠 margin-top) */
-    --content-space: 20px;
+    /* 컨텐츠 간 간격 (컨텐츠 margin-top) */
+    --contents-space: 20px;
     /* 컨텐트 상하 마진 */
     --content-margin: 5px 0px;
     /* 컨텐트 상하좌우 마진 */
