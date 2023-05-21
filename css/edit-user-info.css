@@ -61,7 +61,7 @@ ul{
 
 li{
     list-style: none;
-    padding: 0 0 0 8px;
+    padding: 4px 0 0 8px;
 }
 
 /*닉네임 이메일주소 휴대폰번호 비번 묶음*/
@@ -129,6 +129,7 @@ li{
     line-height: 39px;
     font-size: 14px;
     margin-left: 10px;
+    padding-top: 2px;
     
 }
 
@@ -142,6 +143,7 @@ li{
     line-height: 39px;
     font-size: 14px;
     margin-left: 60px;
+    padding-top: 1[x];
 }
 
 .info-box a{
