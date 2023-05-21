@@ -221,3 +221,40 @@ header {
   top: 355px;
   font-weight: 800;
 }
+
+.findId {
+  position: absolute;
+  width: 69px;
+  height: 19px;
+  left: 49px;
+  top: 659px;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* hint */
+
+  color: rgba(157, 153, 153, 0.6);
+}
+
+.findpwd {
+  position: absolute;
+  width: 81px;
+  height: 19px;
+  left: 152px;
+  top: 659px;
+
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* hint */
+
+  color: rgba(157, 153, 153, 0.6);
+}
+
+.idAndPwd {
+  display: flex;
+  position: absolute;
+  top: 200px;
+}
