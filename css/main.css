@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 125px;
+}
+
+main {
+  margin: 0 20px 0 20px;
+}
+
+.mainBackGround {
+  background-color: yellow;
+  height: 14vh;
+  display: grid;
+  grid-template-columns: 10px 1fr 100px;
+}
+.headerText {
+  grid-column: 2;
+  display: flex;
+  width: 100%;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 40%;
+}
+
+.headerText1 {
+  font-size: 3vh;
+  margin: 0;
+}
+.headerText2 {
+  font-size: 2vh;
+  margin: 0;
+}
+
+.hamberger {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex-wrap: nowrap;
+  position: relative;
+  top: 40%;
+  left: -20%;
+}
+input {
+  background-color: white;
+  height: 3vmin;
+  text-align: center;
+  position: relative;
+  display: flex;
+  width: 70vmin;
+  top: 15%;
+  font-size: 1vh;
+  min-height: 3vh;
+  border-radius: 8px;
+}
+
+.inputWrapper {
+  position: relative;
+  height: 50%;
+}
+
+.bird {
+  position: relative;
+  top: 20px;
+
+  z-index: -1;
+}
+/* 객체지향 사실과 오해 */
+/* 혼자 공부하는 운영체제 */
+/*지킬 독*/
+.birdImg {
+  width: 80vmin;
+  height: 30vmax;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url("../images/icons/캡처.PNG");
+  border-radius: 8px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 30vmax;
+  max-height: 25vmax;
+}

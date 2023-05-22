@@ -1,0 +1,610 @@
+<<<<<<< HEAD
+/* ---------전체 ----------*/
+
+html,
+body {
+  margin: 0px;
+}
+* {
+  font-family: "Noto Sans KR", sans-serif;
+}
+/* ---------헤더 ----------*/
+header {
+  height: 145px;
+  width: 100%;
+  background-color: #ffe551;
+  z-index: -1;
+
+  /* item layout */
+  display: grid;
+  grid-template-columns: 44px 1fr 44px;
+  grid-template-rows: 100%;
+  align-items: center;
+  justify-items: center;
+}
+.header-text {
+  width: auto;
+  /* layout */
+  grid-column: 2;
+  text-align: center;
+  position: absolute;
+  top: 70px;
+  transform: translateY(20px);
+  font-size: 20px;
+  font-weight: 900;
+  color: rgb(63, 63, 63);
+}
+
+/*뒤로가기*/
+.back {
+  height: 24px;
+  width: 25px;
+  background-size: 100%;
+  background-image: url("../images/icons/back.svg");
+  background-repeat: no-repeat;
+  grid-column: 1;
+  margin: 57px 0px 0px 30px;
+}
+
+.home {
+  background-image: url("../images/icons/home.svg");
+  height: 23px;
+  width: 20px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  grid-column: 3;
+  margin: 57px 30px 0px 0px;
+}
+
+/* 메인 */
+
+.twoBtns {
+  justify-content: center;
+  border: 1px solid rgb(255, 229, 81);
+  height: 41px;
+  width: 311px;
+
+  border-radius: 20px;
+
+  justify-items: center;
+  position: relative;
+  margin: 20px 32px 0px 32px;
+}
+
+.btnspar {
+  border-radius: 20px;
+  display: flex;
+  height: 41px;
+  justify-items: center;
+  grid-template-columns: 32fr 1fr 32fr;
+  border-style: none;
+  justify-content: center;
+  position: absolute;
+}
+.btn1 {
+  background-color: white;
+  text-align: center;
+  width: 149px;
+  color: rgba(128, 128, 128, 0.5);
+}
+.btn2 {
+  background-color: rgb(255, 229, 81);
+  width: 165px;
+  z-index: 30;
+}
+
+.btn {
+  position: relative;
+  grid-column: 2;
+  border-radius: 20px;
+  border-style: none;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+/*유저 평균*/
+
+.MiddleBack {
+  width: 100%;
+  height: 450px;
+  background-color: rgb(245, 245, 247);
+  position: absolute;
+  margin-top: 20px;
+}
+
+.graphLine {
+  position: absolute;
+  width: 135px;
+  height: 0px;
+  top: 136px;
+  z-index: 999;
+  /* sub2 */
+
+  border: 1px dashed #f98f78;
+}
+
+.middle {
+  width: 335px;
+  height: 420px;
+  background-color: rgba(217, 217, 217, 0.3);
+  display: flex;
+  grid-template-columns: 32fr 1fr 32fr;
+  margin: 15px 20px;
+  border-radius: 8px;
+
+  flex-direction: column;
+  align-items: center;
+}
+
+.middleText {
+  width: 251px;
+  height: 30px;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: 900;
+}
+.graphs {
+  position: absolute;
+  width: 200px;
+  height: 178px;
+  top: 73px;
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-end;
+  left: 118px;
+}
+
+.graph1 {
+  position: absolute;
+  width: 46px;
+  height: 148px;
+  top: 1%;
+  margin-left: 94px;
+  background: rgba(34, 146, 249, 0.7);
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.25);
+}
+
+.graph2 {
+  position: absolute;
+  width: 46px;
+  height: 94px;
+  top: 30%;
+  margin-right: 94px;
+  background: rgba(255, 229, 81, 0.7);
+  box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.25);
+}
+.txte {
+  position: absolute;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  width: 70px;
+  height: 22px;
+  color: rgba(109, 109, 109, 1);
+}
+.graph1Text {
+  left: -10px;
+}
+
+.graph2Text {
+  left: 85px;
+}
+
+.middleText2 {
+  margin-top: 200px;
+  width: 271px;
+  height: 130px;
+}
+
+.rateImg {
+  background-image: url("../images/icons/rateImg.svg");
+  background-repeat: no-repeat;
+  width: 84px;
+  height: 73px;
+  margin: 0px 90px;
+}
+.rateTextArea {
+  width: 271px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: white;
+}
+.rateText {
+  font-size: 16px;
+  text-align: center;
+  position: absolute;
+  width: auto;
+  height: 44px;
+  left: 20%;
+  top: 355px;
+  font-weight: 800;
+}
+
+.findId {
+  position: absolute;
+  width: 69px;
+  height: 19px;
+  left: 49px;
+  top: 659px;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* hint */
+
+  color: rgba(157, 153, 153, 0.6);
+}
+
+.findpwd {
+  position: absolute;
+  width: 81px;
+  height: 19px;
+  left: 152px;
+  top: 659px;
+
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  /* hint */
+
+  color: rgba(157, 153, 153, 0.6);
+}
+
+.idAndPwd {
+  display: flex;
+  position: absolute;
+  top: 200px;
+}
+=======
+@import url(style.css);
+
+body {
+    background-color: var(--background-color);
+}
+
+/* =================== 헤더 =================== */
+
+header {
+    height: 144px;
+    width: 100%;
+    padding: 0px 20px 34px 20px;
+    background-color: var(--main-color);
+
+    /* layout */
+    position: sticky;
+    top: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: end;
+}
+
+.header-contents-wrapper {
+    width: 100%;
+    height: fit-content;
+
+    /* layout */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.back-btn-img {
+    background-image: url(/images/icons/뒤로가기.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: transparent;
+    width: 12px;
+    height: 19px;
+
+    /* "메뉴버튼" 텍스트 가리기 */
+    overflow: hidden;
+    text-indent: -999px;
+}
+
+.header-logo {
+    background-image: url(/images/assets/logo_1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 72px;
+    height: 44px;
+
+    /* "메추리" 텍스트 가리기 */
+    overflow: hidden;
+    text-indent: -999px;
+}
+
+.header-menu-btn {
+    background-image: url(/images/icons/엑스.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 18px;
+    height: 18px;
+
+    /* "메뉴버튼" 텍스트 가리기 */
+    overflow: hidden;
+    text-indent: -999px;
+}
+
+/* =================== 메인 =================== */
+main {
+    max-width: 1200px;
+}
+
+/* ----------- 식당 이미지 ----------- */
+.restaurant-img {
+    width: 100%;
+}
+
+/* ----------- 상호명 ----------- */
+.restaurant-name-wrapper {
+    background-color: #fff;
+    height: 3em;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: var(--block-shadow);
+
+    /* layout */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ----------- 사용자 입력 컨텐츠 wrapper ----------- */
+.input-contents-wrapper {
+    background-color: #fff;
+
+    /* layout */
+    display: flex;
+    flex-direction: column;
+    margin-top: var(--block-space);
+    padding: 20px;
+}
+
+/* ----------- 메뉴 선택 ----------- */
+.menu-selection {
+    background-color: #fff;
+
+    /* layout */
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-selection h1 {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.menu-selection select {
+    /* box styling */
+    background-color: #EEE;
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+
+    /* contents */
+    font-family: var(--font);
+    text-align: center;
+
+    /* layout */
+    margin: var(--content-margin);
+}
+
+/* ----------- 평가 ----------- */
+.rate {
+    background-color: #fff;
+
+    /* layout */
+    display: flex;
+    flex-direction: column;
+    margin-top: var(--contents-space);
+}
+
+.rate h1 {
+    margin: var(--content-margin);
+    font-weight: bold;
+}
+
+.selling-price-box {
+    height: 27px;
+    /* layout */
+    margin: var(--content-margin);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.selling-price {
+    display: flex;
+}
+
+.selling-price span:last-child {
+    margin-left: 17px;
+}
+
+.my-price-box {
+    height: 27px;
+    /* layout */
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.my-price-box p {
+    /* font styling */
+    font-weight: bold;
+    color: var(--sub-color);
+}
+
+.my-price input {
+    width: 60px;
+    height: 27px;
+    background-color: var(--box-color);
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    font-family: var(--font);
+    font-size: 16px;
+}
+
+/* 가격 조절 스크롤 */
+.slide-container {
+    margin: var(--content-margin);
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 2vmin;
+    border-radius: 5px;
+    background-color: var(--sub-color);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 6vmin;
+    height: 6vmin;
+    border-radius: 50%;
+    background: #F2F1F1;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #F2F1F1;
+    cursor: pointer;
+}
+
+/* ----------- 리뷰 ----------- */
+.comment {
+    background-color: #fff;
+
+    /* layout */
+    display: flex;
+    flex-direction: column;
+    margin-top: var(--contents-space);
+}
+
+    .comment h1 {
+        margin: var(--content-margin);
+        font-weight: bold;
+    }
+
+    .comment textarea {
+        font-family: var(--font);
+        margin: var(--content-margin);
+        background-color: var(--box-color);
+        border: none;
+        border-radius: var(--border-radius);
+        height: 80px;
+        padding: 10px;
+        resize: none;
+    }
+
+/* ----------- 평가 버튼 ----------- */
+.rate-btn-container {
+    margin-top: var(--contents-space);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+    .rate-btn {
+        height: var(--btn-height);
+        width: 100%;
+        background-color: var(--sub-color);
+        border: none;
+        border-radius: var(--border-radius);
+        font-size: 18px;
+        color: #fff;
+        font-weight: bold;
+    }
+
+/* ------------- 평가 확인 모달 ------------- */
+/* 모달 창 */
+.modal {
+    display: none;
+    position: fixed;
+    /* 페이지 스크롤에 영향을 받지 않음 */
+    z-index: 1;
+    /* 다른 요소보다 위에 위치 */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    /* 스크롤 가능하게 함 */
+    background-color: rgba(0, 0, 0, 0.7);
+    /* 반투명한 검은색 배경 */
+}
+
+    /* 모달 박스 */
+    .modal-box {
+        font-weight: bold;
+        background-color: #fff;
+        border-radius: var(--border-radius);
+        padding: 45px 0;
+        box-sizing: border-box;
+
+        /* layout */
+        margin: 50% 40px;
+        height: 269px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+    }
+
+        .modal-box img {
+            width: 106px;
+            height: 92px;
+        }
+
+        .check-btn-box {
+            display: flex;
+        }
+
+            .check-btn-box button {
+                font-family: var(--font);
+                width: 80px;
+                height: 40px;
+                border: none;
+                border-radius: var(--border-radius);
+                margin: 0px 5px;
+            }
+
+            .no {
+                background-color: var(--box-color);
+            }
+            .no:hover {
+                filter: brightness(0.9);
+            }
+
+            .yes {
+                background-color: var(--main-color);
+            }
+            .yes:hover {
+                filter: brightness(0.9);
+            }
+>>>>>>> tot
