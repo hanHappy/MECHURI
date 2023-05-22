@@ -1,0 +1,334 @@
+[33mcommit f49dc9231e908f60e7d3af5118cf139a75380dcb[m[33m ([m[1;36mHEAD -> [m[1;32mChoe_test1[m[33m)[m
+Author: Seowoo <olamessi@gmail.com>
+Date:   Sun May 14 15:55:33 2023 +0900
+
+    modify title user-blabla to like-list.html
+
+[33mcommit 31b6eb2201d138448aca2f31e85782c5a8289e0d[m[33m ([m[1;31morigin/Choe_test1[m[33m)[m
+Author: Seowoo <olamessi@gmail.com>
+Date:   Sun May 14 15:48:52 2023 +0900
+
+    change layer in like-list
+
+[33mcommit 41e6cf69f7057d56af72c53d6e0ce584cfaac70a[m
+Author: Seowoo <olamessi@gmail.com>
+Date:   Sun May 14 13:32:26 2023 +0900
+
+    음식사진추가
+
+[33mcommit 182921149093311178145f41e67a0a3e0fade39c[m
+Merge: 64ea31a dff9ab8
+Author: Seowoo <olamessi@gmail.com>
+Date:   Thu May 11 19:28:50 2023 +0900
+
+    서우화면구현1
+
+[33mcommit 64ea31aae206571f8c0d36703e39ebfdfffe4592[m
+Author: Seowoo <olamessi@gmail.com>
+Date:   Thu May 11 19:15:41 2023 +0900
+
+    qqwe
+
+[33mcommit dff9ab80905510b0aebec911baf8a26b2166a2a2[m[33m ([m[1;31morigin/KHCTEST[m[33m)[m
+Author: HC <wkqkrla12@gmail.comgit config --global user.name HC git config --global user.email wkqkrla12@gmail.com git config --global user.email wkqkrla12@gmail.com>
+Date:   Thu May 11 15:22:01 2023 +0900
+
+    myPagesDone
+
+[33mcommit 53fe7b8b18847fa77a56c0b11d42701b69b30a3a[m
+Author: HC <wkqkrla12@gmail.comgit config --global user.name HC git config --global user.email wkqkrla12@gmail.com git config --global user.email wkqkrla12@gmail.com>
+Date:   Thu May 11 09:37:07 2023 +0900
+
+    fixSignin2css
+
+[33mcommit d77f888438e0a0ccfd70aa5adad72dc9f8c549fa[m
+Author: HC <wkqkrla12@gmail.comgit config --global user.name HC git config --global user.email wkqkrla12@gmail.com git config --global user.email wkqkrla12@gmail.com>
+Date:   Wed May 10 21:03:25 2023 +0900
+
+    SignIn2
+
+[33mcommit 1f838e93f6aa8840d06829329cd7fa20502c76ca[m
+Author: HC <wkqkrla12@gmail.comgit config --global user.name HC git config --global user.email wkqkrla12@gmail.com git config --global user.email wkqkrla12@gmail.com>
+Date:   Wed May 10 17:00:00 2023 +0900
+
+    needFixSignIn1.html
+
+[33mcommit 510e1cab5f74eb52a6a00cc81f9d818fadd798c2[m
+Author: HC <wkqkrla12@gmail.comgit config --global user.name HC git config --global user.email wkqkrla12@gmail.com git config --global user.email wkqkrla12@gmail.com>
+Date:   Wed May 10 09:38:57 2023 +0900
+
+    newSignInPage
+
+[33mcommit 054cdebc97e8dea03ae3423ebab6f4a0f4bc209e[m
+Merge: 4142510 f644d51
+Author: HC <wkqkrla12@gmail.comgit config --global user.name HC git config --global user.email wkqkrla12@gmail.com git config --global user.email wkqkrla12@gmail.com>
+Date:   Tue May 9 14:21:58 2023 +0900
+
+    Merge branch 'Han' of https://github.com/hanHappy/MECHURI into KHCTEST
+
+[33mcommit 4142510f2cf31133670cc512155d8c0f9698ff30[m
+Author: HC <wkqkrla12@gmail.comgit config --global user.name HC git config --global user.email wkqkrla12@gmail.com git config --global user.email wkqkrla12@gmail.com>
+Date:   Tue May 9 14:19:32 2023 +0900
+
+    main
+
+[33mcommit f644d51b725d77484b8262414e33c674aabc6edc[m
+Author: hanHappy <sangmin950706@gmail.com>
+Date:   Sun May 7 23:54:40 2023 +0900
+
+    평가 페이지 제작 중
+    
+    - 거의 완료
+    - 스크롤 바는 이해 없이 복붙만 함(딱히 이해할 필요 없을 지도..?)
+
+[33mcommit 211b5c4b48e3901ea632f3ae4d17ce24e1a89a5c[m
+Author: hanHappy <sangmin950706@gmail.com>
+Date:   Sat May 6 23:24:37 2023 +0900
+
+    메인페이지 완성~
+
+[33mcommit 3afb934a36486d239289390b52e2455e3de67127[m
+Author: KHC <wkqkrla12@gmail.com>
+Date:   Thu May 4 18:22:28 2023 +0900
+
+    mainSearchBarNeedFix
+
+[33mcommit a648ec08a015993f955814a693d5f91295f5570b[m
+Author: HC <wkqkrla12@gmail.comgit config --global user.name HC git config --global user.email wkqkrla12@gmail.com git config --global user.email wkqkrla12@gmail.com>
+Date:   Thu May 4 15:44:16 2023 +0900
+
+    Mainn
+
+[33mcommit bea99a1451d886eb9585fb88285bef0b4aff6e8e[m
+Author: Kim <wkqkrla12@gmail.com>
+Date:   Thu May 4 01:16:11 2023 +0900
+
+    DoMainhtml
+
+[33mcommit 7c1f09b23aa731503e84e20d0a57024e60937c48[m
+Merge: 14a48af 94df11f
+Author: Kim <wkqkrla12@gmail.com>
+Date:   Wed May 3 23:05:56 2023 +0900
+
+    Merge branch 'KHCTEST' of https://github.com/hanHappy/MECHURI into KHCTEST
+
+[33mcommit 14a48af44a5aab07a655d0766fa6c1b0922dc216[m
+Author: Kim <wkqkrla12@gmail.com>
+Date:   Wed May 3 23:05:48 2023 +0900
+
+    dontknow1
+
+[33mcommit 94df11fda93692387575068b7dd999b1b9d16deb[m
+Author: HC <wkqkrla12@gmail.comgit config --global user.name HC git config --global user.email wkqkrla12@gmail.com git config --global user.email wkqkrla12@gmail.com>
+Date:   Wed May 3 23:05:16 2023 +0900
+
+    dontknow
+
+[33mcommit 323ef8a2c2eebc07cb57303146d0e5ca69e974e3[m
+Author: hanHappy <sangmin950706@gmail.com>
+Date:   Wed May 3 00:22:06 2023 +0900
+
+    (feat) main 페이지 연습 중
+
+[33mcommit 1a96007e04d5b538ac14469cb02ff885708c9f7f[m
+Author: Kim <wkqkrla12@gmail.com>
+Date:   Wed May 3 00:17:10 2023 +0900
+
+    LoginRework
+
+[33mcommit 75af5a5d83cb7fb8b4f0aeda7adbae379734f7d3[m
+Author: HC <wkqkrla12@gmail.comgit config --global user.name HC git config --global user.email wkqkrla12@gmail.com git config --global user.email wkqkrla12@gmail.com>
+Date:   Tue May 2 21:43:46 2023 +0900
+
+    LoginPage
+
+[33mcommit 001f8e79d9645382f2d89637462083f02c2c8cb0[m[33m ([m[1;31morigin/tot[m[33m)[m
+Author: chaechae19 <hcnow13@naver.com>
+Date:   Tue May 2 18:00:18 2023 +0900
+
+    사진 2차 추가
+
+[33mcommit faf1c7e35fc3929e756312b90442dc73b0bb8ab6[m
+Author: chaechae19 <hcnow13@naver.com>
+Date:   Tue May 2 17:43:05 2023 +0900
+
+    사진 1.5차 추가
+
+[33mcommit 9f489867347d4442774ffab48ebbaf81ae05596c[m
+Author: chaechae19 <hcnow13@naver.com>
+Date:   Tue May 2 17:35:03 2023 +0900
+
+    사진 1차 추가
+
+[33mcommit 4bb66b8a489386a18d4aba0f176f872aeb74e1d9[m
+Merge: 19d0675 f728299
+Author: HC <wkqkrla12@gmail.comgit config --global user.name HC git config --global user.email wkqkrla12@gmail.com git config --global user.email wkqkrla12@gmail.com>
+Date:   Tue May 2 16:53:54 2023 +0900
+
+    Merge branch 'tot' of https://github.com/hanHappy/MECHURI into tot
+
+[33mcommit 19d0675aee031c063daa2bd95748c04c842800ad[m
+Author: HC <wkqkrla12@gmail.comgit config --global user.name HC git config --global user.email wkqkrla12@gmail.com git config --global user.email wkqkrla12@gmail.com>
+Date:   Tue May 2 16:53:09 2023 +0900
+
+    Login
+
+[33mcommit f728299c3c59cf7a718527c81cd547d97c5c0a35[m[33m ([m[1;32mtot[m[33m)[m
+Merge: 53f6914 6a54e7f
+Author: Seowoo <olamessi@gmail.com>
+Date:   Tue May 2 16:51:16 2023 +0900
+
+    Merge branch 'tot' of https://github.com/hanHappy/MECHURI into tot
+
+[33mcommit 6a54e7fcfa31c8e89ea17fcb7225edd15554fac9[m
+Merge: 5f1f15f f3bd1c8
+Author: seyoungheo <syheo925@gmail.com>
+Date:   Tue May 2 16:50:14 2023 +0900
+
+    Merge branch 'tot' of https://github.com/hanHappy/MECHURI into tot
+
+[33mcommit f3bd1c8697e361e242cc6251592f871788eae6f2[m
+Merge: 978be92 10a3189
+Author: LeftyPark <hhyyuunn77@naver.com>
+Date:   Tue May 2 16:49:16 2023 +0900
+
+    Merge branch 'tot' of https://github.com/hanHappy/MECHURI into tot
+
+[33mcommit 5451f2e0d0f558736817f57b9269d172313273b9[m
+Author: HC <wkqkrla12@gmail.comgit config --global user.name HC git config --global user.email wkqkrla12@gmail.com git config --global user.email wkqkrla12@gmail.com>
+Date:   Tue May 2 16:45:32 2023 +0900
+
+    addLoginPage
+
+[33mcommit 5f1f15f76edadd5632d8a0af39a05cdcb8ea366d[m
+Author: seyoungheo <syheo925@gmail.com>
+Date:   Tue May 2 16:44:17 2023 +0900
+
+    search.html, search.css 추가
+
+[33mcommit 10a3189a108719b5f920ece78f4f333c7b26410e[m
+Author: chaechae19 <hcnow13@naver.com>
+Date:   Tue May 2 16:44:17 2023 +0900
+
+    rate html, css 파일생성
+
+[33mcommit 53f69149e2ec529c7d42055ff6cfd53ddb1a50e2[m
+Author: Seowoo <olamessi@gmail.com>
+Date:   Tue May 2 16:44:04 2023 +0900
+
+    회원정보 변경 html/css 파일추가
+
+[33mcommit 978be92c995a2d1917e0dbe63a85563eefea4c2d[m
+Merge: 6712940 206d9a1
+Author: LeftyPark <hhyyuunn77@naver.com>
+Date:   Tue May 2 16:43:38 2023 +0900
+
+    sign-up.html, sign-up.css 파일 추가
+
+[33mcommit 414c33b025219f71cf05194c3cbd908eccfd1ca0[m
+Merge: 8e8be3d 206d9a1
+Author: HC <wkqkrla12@gmail.comgit config --global user.name HC git config --global user.email wkqkrla12@gmail.com git config --global user.email wkqkrla12@gmail.com>
+Date:   Tue May 2 16:41:35 2023 +0900
+
+    Merge branch 'tot' of https://github.com/hanHappy/MECHURI into KHCTEST
+
+[33mcommit 8e8be3d6f7937f47c2660f87f7fbcb03b491776e[m
+Author: HC <wkqkrla12@gmail.comgit config --global user.name HC git config --global user.email wkqkrla12@gmail.com git config --global user.email wkqkrla12@gmail.com>
+Date:   Tue May 2 16:41:22 2023 +0900
+
+    cssNotFinish
+
+[33mcommit 439af00c743931789b394b9e6dcf3a27f3b6dbf5[m
+Merge: f5bc30a 206d9a1
+Author: chaechae19 <hcnow13@naver.com>
+Date:   Tue May 2 16:37:48 2023 +0900
+
+    Merge branch 'tot' of https://github.com/hanHappy/MECHURI into Shin-test
+
+[33mcommit 63e786ffe7f29e110a9e343104f3d6ddbb5ea5c4[m
+Merge: fb68910 206d9a1
+Author: Seowoo <olamessi@gmail.com>
+Date:   Tue May 2 16:37:46 2023 +0900
+
+    Merge branch 'tot' of https://github.com/hanHappy/MECHURI into Choe_test1
+
+[33mcommit be4a0fcce801dff8bd264f923bd2d6f99f50eb48[m
+Merge: 26835a0 206d9a1
+Author: seyoungheo <syheo925@gmail.com>
+Date:   Tue May 2 16:37:44 2023 +0900
+
+    Merge branch 'tot' of https://github.com/hanHappy/MECHURI into heo_test
+
+[33mcommit 671294030afc1ecbbf60d264e5b01a5c0e6b462d[m
+Author: LeftyPark <hhyyuunn77@naver.com>
+Date:   Tue May 2 16:36:18 2023 +0900
+
+    index파일 삭제
+
+[33mcommit f5bc30a5621b5151666d645bd37eeaccaada3594[m
+Author: chaechae19 <hcnow13@naver.com>
+Date:   Tue May 2 16:36:13 2023 +0900
+
+    index파일 삭제
+
+[33mcommit fb689101e5bcd96905ea082ed9e66056bd46eb90[m
+Author: Seowoo <olamessi@gmail.com>
+Date:   Tue May 2 16:36:04 2023 +0900
+
+    "index 삭제"
+
+[33mcommit 26835a0c4545eeb6571c4e4a0a282ddcd158542d[m
+Author: seyoungheo <syheo925@gmail.com>
+Date:   Tue May 2 16:35:57 2023 +0900
+
+    기본 폴더 설정
+
+[33mcommit 206d9a18d614e1af2ad11634eeffbd0c8aa5d16d[m
+Author: hanHappy <sangmin950706@gmail.com>
+Date:   Tue May 2 16:33:08 2023 +0900
+
+    index 파일 삭제
+
+[33mcommit 929d98bb31dd1e54ba466dc7a7503f2f609e2da9[m
+Merge: 75688a1 eda3de8
+Author: hanHappy <sangmin950706@gmail.com>
+Date:   Tue May 2 16:31:39 2023 +0900
+
+    Merge branch 'Han_test1' into tot
+
+[33mcommit eda3de824aad2a421cb49323f22b7a6cd2f2f30f[m
+Author: hanHappy <sangmin950706@gmail.com>
+Date:   Tue May 2 16:30:48 2023 +0900
+
+    사진 이름 변경
+
+[33mcommit 75688a136f3beaf0246a44daf152e788056ac8b7[m
+Merge: 5d5d105 4b2e3f6
+Author: hanHappy <sangmin950706@gmail.com>
+Date:   Tue May 2 16:06:13 2023 +0900
+
+    Merge branch 'Han_test1' into Han
+
+[33mcommit 4b2e3f6679e2772fc12c4d8c5f96524b0049c8e8[m
+Author: hanHappy <sangmin950706@gmail.com>
+Date:   Tue May 2 16:05:04 2023 +0900
+
+    현철 작업한 거 pull
+
+[33mcommit 5d5d105ec1794b5e6a1a9500c9eb29c66bef137e[m
+Author: hanHappy <sangmin950706@gmail.com>
+Date:   Tue May 2 15:57:19 2023 +0900
+
+    가보자고~
+
+[33mcommit aef41013a863244552377cc2e52a64cea59d649c[m
+Author: HC <wkqkrla12@gmail.comgit config --global user.name HC git config --global user.email wkqkrla12@gmail.com git config --global user.email wkqkrla12@gmail.com>
+Date:   Tue May 2 15:54:33 2023 +0900
+
+    MainHtml
+
+[33mcommit dd2864073ae46c38cf1423bed7087d1e91fadaf3[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m, [m[1;32mChoe[m[33m)[m
+Author: hanHappy <126304637+hanHappy@users.noreply.github.com>
+Date:   Tue May 2 15:35:48 2023 +0900
+
+    Initial commit
