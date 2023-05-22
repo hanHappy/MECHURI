@@ -1,13 +1,8 @@
-
 //이미지에 접근하는 인덱스
-
 let index = 0;   
 window.onload = function(){
     slideShow();
 }
-
-
-
 
 function slideShow() {
     let x = document.getElementsByClassName("rateAd");  //slide1에 대한 dom 참조
