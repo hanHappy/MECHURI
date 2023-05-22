@@ -212,24 +212,7 @@ main{
 .section [id="slide06"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-500%);}
 
 
-.rating{
-    margin: 8px 0px 0px 0px;
-    padding: 10px 20px;
-    /* padding: 10px 20px 15px 20px; */
-    background-color: white;
-    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
-    height: 214px;
-}
 
-.rating h1{
-    padding: 0px 0px 5px 0px;
-    font-family: 'Noto Sans CJK KR Medium';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 25px;
-    color: #000000;
-}
 
 .comparison{
     margin: 8px 0px 0px 0px;
@@ -255,3 +238,19 @@ main{
     /* width: 335px;
     height: 184px; */
 }
+
+/* .rateAd{ */
+    /* margin: 8px 0px 0px 0px;
+    padding: 0px 0px 0px 0px; */
+    /* padding: 10px 20px 15px 20px; */
+    /* background-color: white; */
+    /* box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2); */
+    /* height: 214px; */
+/* } */
+
+
+
+
+
+
+
