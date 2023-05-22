@@ -1,0 +1,79 @@
+/* ---------전체 ----------*/
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+main {
+  margin: 40px 20px;
+}
+
+/* ---------헤더 ----------*/
+header {
+  height: 145px;
+  width: 100%;
+  background-color: #ffe551;
+  z-index: -1;
+
+  /* item layout */
+  display: grid;
+  grid-template-columns: 44px 1fr 44px;
+  grid-template-rows: 100%;
+  align-items: center;
+  justify-items: center;
+}
+.header-txet {
+  width: auto;
+  /* layout */
+  grid-column: 2;
+  text-align: center;
+  position: absolute;
+  top: 70px;
+  transform: translateY(20px);
+  font-weight: 700;
+  font-size: 20px;
+  color: rgb(63, 63, 63);
+}
+
+/*뒤로가기*/
+.back {
+  height: 20px;
+  width: 20px;
+  background-size: 60%;
+  background-image: url("../images/icons/뒤로가기.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 35px;
+  top: 95px;
+}
+
+/* ========메인========== */
+
+.imageP {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 40%;
+  background-image: url("../images/icons/com.png");
+  width: 156px;
+  height: 178px;
+  margin-top: 116px;
+  margin-bottom: 116px;
+}
+
+.next {
+  position: absolute;
+}
+
+.btn {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  width: 335px;
+  height: 42px;
+  background-color: rgb(34, 146, 249);
+  border: none;
+  font-weight: 900;
+  border-radius: 8px;
+}
+

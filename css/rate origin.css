@@ -1,0 +1,223 @@
+/* ---------전체 ----------*/
+
+html,
+body {
+  margin: 0px;
+}
+* {
+  font-family: "Noto Sans KR", sans-serif;
+}
+/* ---------헤더 ----------*/
+header {
+  height: 145px;
+  width: 100%;
+  background-color: #ffe551;
+  z-index: -1;
+
+  /* item layout */
+  display: grid;
+  grid-template-columns: 44px 1fr 44px;
+  grid-template-rows: 100%;
+  align-items: center;
+  justify-items: center;
+}
+.header-text {
+  width: auto;
+  /* layout */
+  grid-column: 2;
+  text-align: center;
+  position: absolute;
+  top: 70px;
+  transform: translateY(20px);
+  font-size: 20px;
+  font-weight: 900;
+  color: rgb(63, 63, 63);
+}
+
+/*뒤로가기*/
+.back {
+  height: 24px;
+  width: 25px;
+  background-size: 100%;
+  background-image: url("../images/icons/back.svg");
+  background-repeat: no-repeat;
+  grid-column: 1;
+  margin: 57px 0px 0px 30px;
+}
+
+.home {
+  background-image: url("../images/icons/home.svg");
+  height: 23px;
+  width: 20px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  grid-column: 3;
+  margin: 57px 30px 0px 0px;
+}
+
+/* 메인 */
+
+.twoBtns {
+  justify-content: center;
+  border: 1px solid rgb(255, 229, 81);
+  height: 41px;
+  width: 311px;
+
+  border-radius: 20px;
+
+  justify-items: center;
+  position: relative;
+  margin: 20px 32px 0px 32px;
+}
+
+.btnspar {
+  border-radius: 20px;
+  display: flex;
+  height: 41px;
+  justify-items: center;
+  grid-template-columns: 32fr 1fr 32fr;
+  border-style: none;
+  justify-content: center;
+  position: absolute;
+}
+.btn1 {
+  background-color: white;
+  text-align: center;
+  width: 149px;
+  color: rgba(128, 128, 128, 0.5);
+}
+.btn2 {
+  background-color: rgb(255, 229, 81);
+  width: 165px;
+  z-index: 30;
+}
+
+.btn {
+  position: relative;
+  grid-column: 2;
+  border-radius: 20px;
+  border-style: none;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+/*유저 평균*/
+
+.MiddleBack {
+  width: 100%;
+  height: 450px;
+  background-color: rgb(245, 245, 247);
+  position: absolute;
+  margin-top: 20px;
+}
+
+.graphLine {
+  position: absolute;
+  width: 135px;
+  height: 0px;
+  top: 136px;
+  z-index: 999;
+  /* sub2 */
+
+  border: 1px dashed #f98f78;
+}
+
+.middle {
+  width: 335px;
+  height: 420px;
+  background-color: rgba(217, 217, 217, 0.3);
+  display: flex;
+  grid-template-columns: 32fr 1fr 32fr;
+  margin: 15px 20px;
+  border-radius: 8px;
+
+  flex-direction: column;
+  align-items: center;
+}
+
+.middleText {
+  width: 251px;
+  height: 30px;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: 900;
+}
+.graphs {
+  position: absolute;
+  width: 200px;
+  height: 178px;
+  top: 73px;
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-end;
+  left: 118px;
+}
+
+.graph1 {
+  position: absolute;
+  width: 46px;
+  height: 148px;
+  top: 1%;
+  margin-left: 94px;
+  background: rgba(34, 146, 249, 0.7);
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.25);
+}
+
+.graph2 {
+  position: absolute;
+  width: 46px;
+  height: 94px;
+  top: 30%;
+  margin-right: 94px;
+  background: rgba(255, 229, 81, 0.7);
+  box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.25);
+}
+.txte {
+  position: absolute;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  width: 70px;
+  height: 22px;
+  color: rgba(109, 109, 109, 1);
+}
+.graph1Text {
+  left: -10px;
+}
+
+.graph2Text {
+  left: 85px;
+}
+
+.middleText2 {
+  margin-top: 200px;
+  width: 271px;
+  height: 130px;
+}
+
+.rateImg {
+  background-image: url("../images/icons/rateImg.svg");
+  background-repeat: no-repeat;
+  width: 84px;
+  height: 73px;
+  margin: 0px 90px;
+}
+.rateTextArea {
+  width: 271px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: white;
+}
+.rateText {
+  font-size: 16px;
+  text-align: center;
+  position: absolute;
+  width: auto;
+  height: 44px;
+  left: 20%;
+  top: 355px;
+  font-weight: 800;
+}
