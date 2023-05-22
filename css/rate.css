@@ -32,7 +32,7 @@ header {
 }
 
 .back-btn-img {
-    background-image: url(/images/icons/뒤로가기.png);
+    background-image: url(/images/icons/뒤로가기.svg);
     background-size: cover;
     background-repeat: no-repeat;
     border: none;
@@ -60,12 +60,12 @@ header {
 }
 
 .header-menu-btn {
-    background-image: url(/images/icons/메뉴.png);
+    background-image: url(/images/icons/엑스.svg);
     background-size: cover;
     background-repeat: no-repeat;
 
-    width: 22px;
-    height: 19px;
+    width: 18px;
+    height: 18px;
 
     /* "메뉴버튼" 텍스트 가리기 */
     overflow: hidden;
