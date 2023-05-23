@@ -1,5 +1,5 @@
 @import url(/css/search.css);
-@import url(/css/style.css);
+/* @import url(/css/style.css); */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 
 *{
@@ -8,8 +8,8 @@
 }
 
 header{
-    background-color: var(--main-color);
-    /* background-color: rgba(255, 229, 81, 1); */
+    /* background-color: var(--main-color); */
+    background-color: rgba(255, 229, 81, 1);
 
     display: grid;
     grid-template-columns: 45px 1fr 45px;
